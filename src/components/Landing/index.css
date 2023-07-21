@@ -1,0 +1,37 @@
+.landing-parent {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: stretch;
+  padding: 0px 55px;
+}
+
+.landing-photo {
+  margin-top: -90px;
+}
+
+.landing-text {
+  margin-top: -70px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  align-content: stretch;
+  font-family: notosans;
+  letter-spacing: 1.8px;
+  margin-left: 20px;
+  font-size: 20px;
+  color: #504333;
+}
+
+.landing-title {
+  font-size: xxx-large;
+  font-family: ebgaramond;
+  letter-spacing: 2px;
+  color: #804844;
+}
