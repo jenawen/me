@@ -9,9 +9,9 @@ const Header = () => {
 
       <div className="links">
         <div className="link-1">Portfolio</div>
-        <div className="link-1">About Me</div>
-        <div className="link-1">Skill Set</div>
-        <div className="link-1">Contact Me</div>
+        <div className="link-2">About Me</div>
+        <div className="link-3">Skill Set</div>
+        <div className="link-4">Contact Me</div>
       </div>
     </div>
   );

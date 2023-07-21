@@ -1,0 +1,16 @@
+.portfolio-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+
+.portfolio-title {
+  font-size: xxx-large;
+  font-family: ebgaramond;
+  letter-spacing: 4px;
+  color: #804844;
+}
