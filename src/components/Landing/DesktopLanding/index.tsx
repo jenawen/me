@@ -1,5 +1,6 @@
 import "./index.css";
 import landing from "../../../assets/landing.svg";
+import "../../../fonts/notosans.ttf";
 const Landing = () => {
   return (
     <div className="landing-parent">

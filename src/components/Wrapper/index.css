@@ -13,7 +13,7 @@
 }
 
 #root {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   /* padding: 2rem; */
   /* text-align: center; */
@@ -31,4 +31,5 @@
 
 .parent {
   background-color: #f7f1f0;
+  width: 100vw;
 }

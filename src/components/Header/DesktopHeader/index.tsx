@@ -1,5 +1,5 @@
 import "./index.css";
-import homeicon from "../../assets/homeicon.svg";
+import homeicon from "../../../assets/homeicon.svg";
 const Header = () => {
   return (
     <div className="header-parent">
