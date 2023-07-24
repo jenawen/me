@@ -1,6 +1,14 @@
 import { useState } from "react";
 import PortfolioTemplate from "../PortfolioTemplate/index";
 import "./index.css";
+import regz from "../../../assets/portfoliopics/regz.png";
+import uw1 from "../../../assets/portfoliopics/uw1.png";
+import c1b from "../../../assets/c1b_logo_rgb.jpg";
+import journal from "../../../assets/portfoliopics/journal.png";
+import liptint from "../../../assets/portfoliopics/liptint.png";
+import sawara from "../../../assets/portfoliopics/sawara.svg";
+import portfolio from "../../../assets/portfoliopics/portfolio.png";
+import portfolio2 from "../../../assets/portfoliopics/portfolio2.png";
 
 const Portfolio = () => {
   const [seeMore, setSeeMore] = useState(false);
@@ -10,13 +18,33 @@ const Portfolio = () => {
       <div className="portfolio-title"> Portfolio</div>
 
       <PortfolioTemplate
-        title={"Reg Z"}
+        title={"Regulation Z Calculator"}
         status={"Deployed"}
         involve={"Front-end, Unit testing"}
         desc={
-          " A Regulation Z calculator that calculates the amount of credit due from purchases, cash advance fees, or merchant charges. A credit protection feature is also included for credit statements. This was my first project as an intern. Our task was to create an interface to replace an Excel sheet that had the same functions, but was becoming increasingly obsolete and difficult to update. "
+          <>
+            <p>
+              {" "}
+              A Regulation Z calculator that calculates the amount of credit due
+              from purchases, cash advance fees, or merchant charges. A credit
+              protection feature is also included for credit statements.
+            </p>
+
+            <p>
+              {" "}
+              This was my first project as an intern. Our task was to create an
+              interface to replace an Excel sheet that had the same functions,
+              but was becoming increasingly obsolete and difficult to update.{" "}
+            </p>
+            <p>
+              This project was an internal application. Contact me if you would
+              like to know more about it.
+            </p>
+          </>
         }
         type={"1"}
+        date={"2021-2022"}
+        img={regz}
       />
 
       <PortfolioTemplate
@@ -24,9 +52,24 @@ const Portfolio = () => {
         status={"Deployed"}
         involve={"Front-end, Unit testing, Documentation"}
         desc={
-          "An underwriting application that allows the user to create a custom credit line for a specific credit card. This was one page of a larger internal project titled RISK-246. The purpose of the project was to create, edit, and manage credit card campaigns more efficiently. "
+          <>
+            <p>
+              An underwriting application that allows the user to create a
+              custom credit line for a specific credit card.
+            </p>
+            <p>
+              This was one page of a larger internal project titled RISK-246.
+              The purpose of the project was to create, edit, and manage credit
+              card campaigns more efficiently.{" "}
+            </p>
+            <p>
+              Since this was an internal application, contact me if you would
+              like to know more about it.
+            </p>
+          </>
         }
         type={"2"}
+        img={uw1}
       />
 
       <PortfolioTemplate
@@ -42,13 +85,16 @@ const Portfolio = () => {
               details about it. However, it's a very high-profile project for
               the current company.{" "}
             </p>
+            <p>Contact me if you'd like to know more about the project.</p>
           </>
         }
         type={"1"}
+        img={c1b}
       />
 
       {!seeMore ? (
         <div
+          className="see-more"
           onClick={() => {
             setSeeMore(true);
           }}
@@ -62,7 +108,7 @@ const Portfolio = () => {
           <PortfolioTemplate
             title={"Glucose Journal"}
             status={"On-going"}
-            involve={"Custom form creation/handling, Unit Testing"}
+            involve={"Front-end, Design, Unit Testing"}
             desc={
               <>
                 <p>
@@ -71,33 +117,38 @@ const Portfolio = () => {
                   see their progress over time.
                 </p>
                 <p>
-                  I created this project for my partner who had extremely high
-                  blood sugar levels and was diagnosed with diabetes by his
-                  doctor. For a month, we wanted to track his food intake and
-                  glucose levels. I was using my notes app in my phone.
+                  I created this project for my partner was diagnosed with
+                  diabetes. For a month, we wanted to track his food intake and
+                  glucose levels. I was using my notes app in my phone, but
+                  hated the touchscreen interface. So I decided to make my own!
                 </p>
               </>
             }
             type={"2"}
+            img={journal}
           />
           <PortfolioTemplate
             title={"Lip Tint Picker"}
             status={"On-going"}
-            involve={"Custom form creation/handling, Unit Testing"}
+            involve={"Front-end, Design, Unit Testing"}
             desc={
               <>
                 <p>
                   An interactive and informative quiz-like application that
-                  gives the user a recommended lip product.
+                  gives the user a recommended lip product based on desired
+                  finish, texture, undertone, etc.
                 </p>
                 <p>
                   I wanted to create an application that fed off user inputs but
-                  was also fun and trendy. I was able to combine two things I
-                  really enjoy, beauty and front-end development.
+                  was also fun, trendy, and memorable. I was able to combine two
+                  things I really enjoy, beauty and front-end development.
                 </p>
               </>
             }
+            live={"https://github.com/jenawen/liptint"}
+            viewText={"View GitHub Repository"}
             type={"1"}
+            img={liptint}
           />
           <PortfolioTemplate
             title={"Sawara's Portfolio"}
@@ -111,21 +162,25 @@ const Portfolio = () => {
                 <p>
                   I was commissioned by my friend to build a website for her
                   that she designed using Figma. Building this website exposed
-                  me more to Figma and how its works.
+                  me more to Figma and how it works, which motivated me to try
+                  and use it myself.
                 </p>
               </>
             }
             type={"2"}
+            img={sawara}
           />
           <PortfolioTemplate
             title={"Personal Portfolio V.1"}
             status={"Deployed"}
             involve={"Front-end, Unit testing"}
+            live={"https://jenaadkins.gitlab.io/portfolio/"}
+            viewText={"View Live"}
             desc={
               <>
                 <p>My first attempt at a personal site/portfolio.</p>
                 <p>
-                  I first started development with handdrawn sketches of what I
+                  I first started development with hand-drawn sketches of what I
                   wanted my site to look like. After a few renditions, I decided
                   to build using handdrawn wireframes as reference
                 </p>
@@ -137,21 +192,35 @@ const Portfolio = () => {
               </>
             }
             type={"1"}
+            img={portfolio}
           />
           <PortfolioTemplate
             title={"Personal Portfolio V.2"}
             status={"Deployed"}
-            involve={"Front-end, Unit testing"}
+            involve={"Front-end, Design, Unit testing"}
             desc={
               <>
                 <p>
-                  My second attempt at a personal site/portfolio, this time
-                  using Figma for the design.
+                  My second attempt at a personal site/portfolio, using Figma
+                  for the first time for the design. View my Figma file{" "}
+                  <span
+                    style={{ textDecoration: "underline", color: "#e8536c" }}
+                    onClick={() =>
+                      window.open(
+                        "https://www.figma.com/file/OwdsgAMnJqcj0HZVGCABxU/Portfolio-Pt2?type=design&node-id=0%3A1&mode=design&t=2mbYdgFCf1th3d7r-1",
+                        "_blank"
+                      )
+                    }
+                  >
+                    {" "}
+                    here.
+                  </span>
                 </p>
                 <p>
-                  I created my first portfolio mostly on whim without a real
-                  definite design in mind. I had handdrawn sketches, but did not
-                  use any design software.
+                  I created my first portfolio mostly on a whim without a real
+                  definite design. I had handdrawn sketches, but did not use any
+                  design software, and was developing and adding things where I
+                  saw fit.
                 </p>
                 <p>
                   I decided to do a redesign to create a more responsive and
@@ -161,9 +230,11 @@ const Portfolio = () => {
               </>
             }
             type={"2"}
+            img={portfolio2}
           />
 
           <div
+            className="see-more"
             onClick={() => {
               setSeeMore(false);
             }}

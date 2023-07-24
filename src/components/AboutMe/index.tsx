@@ -8,22 +8,23 @@ const AboutMe = () => {
       <div className="aboutme-text">
         <p>
           As a front-end developer, I'm passionate about web design and
-          developing efficient user interfaces. I currently have 2+ years of
-          professional experience as an undergrad in creating streamlined
-          applications for the credit card and financial industry.
+          developing responsive and efficient user interfaces. I currently have
+          2+ years of professional experience as an undergrad in creating
+          streamlined applications for the credit card and financial industry
+          using React and TypeScript.
         </p>
         <p>
           In the future, I'd love to pursue an opportunity in UI/UX design or
-          back-end development. I want my websites to be attractive, but also
-          functional and effective. However, my passion is ultimately with
-          front-end programming, development, and all the problem solving it
-          comes with.{" "}
+          back-end development. However, my passion is ultimately with front-end
+          programming, development, and all the problem solving it comes with.{" "}
         </p>
 
         <p>
-          My biggest strength is my persistence. I'll debug and edit something
-          for hours without distraction, because I'm only satisfied once it
-          finally compiles and works.
+          Being extremely detail oriented, I excel at implementing intended
+          designs into functional, scalable components. I love collaborating
+          with others, and strive to make the design-to-development process as
+          productive and accurate as possible, no matter how many iterations
+          there are.
         </p>
 
         <p>
