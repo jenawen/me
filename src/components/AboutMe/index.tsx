@@ -8,23 +8,34 @@ const AboutMe = () => {
       <div className="aboutme-text">
         <p>
           As a front-end developer, I'm passionate about web design and
-          developing responsive and efficient user interfaces. I currently have
-          2+ years of professional experience as an undergrad in creating
-          streamlined applications for the credit card and financial industry
-          using React and TypeScript.
+          developing{" "}
+          <span style={{ color: "#DC7384" }}>
+            responsive and efficient user interfaces.{" "}
+          </span>{" "}
+          I currently have{" "}
+          <span style={{ color: "#DC7384" }}>
+            2+ years of professional experience
+          </span>{" "}
+          as an undergrad in creating streamlined applications for the credit
+          card and financial industry using{" "}
+          <span style={{ color: "#DC7384" }}> React and TypeScript.</span>
         </p>
         <p>
-          In the future, I'd love to pursue an opportunity in UI/UX design or
-          back-end development. However, my passion is ultimately with front-end
-          programming, development, and all the problem solving it comes with.{" "}
+          In the future, I'd love to pursue an opportunity in{" "}
+          <span style={{ color: "#DC7384" }}> UI/UX design. </span>
+          However, my passion is ultimately with{" "}
+          <span style={{ color: "#DC7384" }}>front-end programming</span>,
+          development, and all the problem solving it comes with.{" "}
         </p>
 
         <p>
           Being extremely detail oriented, I excel at implementing intended
-          designs into functional, scalable components. I love collaborating
-          with others, and strive to make the design-to-development process as
-          productive and accurate as possible, no matter how many iterations
-          there are.
+          designs into functional,{" "}
+          <span style={{ color: "#DC7384" }}>scalable components.</span> I love
+          collaborating with others, and strive to make the
+          <span style={{ color: "#DC7384" }}> design-to-development</span>{" "}
+          process as productive and accurate as possible, no matter how many
+          iterations there are.
         </p>
 
         <p>

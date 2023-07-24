@@ -167,6 +167,8 @@ const Portfolio = () => {
                 </p>
               </>
             }
+            live={"https://github.com/jenawen/sawara"}
+            viewText={"View GitHub Repository"}
             type={"2"}
             img={sawara}
           />

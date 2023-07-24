@@ -1,5 +1,10 @@
 import "./index.css";
 
+import linkedin from "../../assets/linkedin.svg";
+import github from "../../assets/github.svg";
+import gitlab from "../../assets/gitlab.svg";
+import discord from "../../assets/discord.svg";
+
 const ContactMe = (props: any) => {
   const { pageType } = props;
   const form_ep =
@@ -45,7 +50,30 @@ const ContactMe = (props: any) => {
         <p>I'll get back to you as soon as I can!</p>
       </div>
 
-      {pageType === "desktop" ? <div className="cm-links">links</div> : null}
+      {pageType === "desktop" ? (
+        <div className="cm-links">
+          <img
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/jena-adkins/", "_blank")
+            }
+            className="cm-l"
+            src={linkedin}
+          />
+          <img
+            onClick={() => window.open("https://github.com/jenawen", "_blank")}
+            className="cm-l"
+            src={github}
+          />
+          <img
+            onClick={() =>
+              window.open("https://gitlab.com/jenaadkins", "_blank")
+            }
+            className="cm-l"
+            src={gitlab}
+          />
+          <img className="cm-l" src={discord} />
+        </div>
+      ) : null}
 
       <div className="cm-form">
         <form action={form_ep} onSubmit={handleSubmit} method="POST">

@@ -1,5 +1,5 @@
 .cm-parent {
-  height: 110vh;
+  height: 115vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,19 @@
   }
 }
 
+.cm-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  width: 40%;
+  padding-top: 10px;
+}
+
 .cm-form {
+  padding-top: 20px;
   width: 90vw;
   display: flex;
   flex-direction: column;
@@ -74,4 +86,14 @@ button {
 button:hover {
   background-color: #f8bebb;
   box-shadow: none;
+}
+.cm-l {
+  width: 35px;
+  filter: invert(23%) sepia(41%) saturate(336%) hue-rotate(353deg)
+    brightness(95%) contrast(88%);
+}
+
+.cm-l:hover {
+  filter: invert(45%) sepia(77%) saturate(4167%) hue-rotate(327deg)
+    brightness(111%) contrast(82%);
 }
