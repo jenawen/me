@@ -20,13 +20,42 @@
 }
 
 .menu-card {
-  width: 70vw;
+  width: 75vw;
   height: 100vh;
   background-color: white;
   position: absolute;
   z-index: 5;
 }
 
+.menu-links {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: stretch;
+  margin-left: 18px;
+  font-size: 25px;
+  font-family: ebgaramond;
+  letter-spacing: 3px;
+  border-bottom: 1px solid #504333;
+  color: #804844;
+}
+
+.sm-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+  align-content: stretch;
+  padding-top: 20px;
+}
+
+.link {
+  padding: 0px 15px 15px 5px;
+}
 #slide {
   position: absolute;
   right: -100vw;

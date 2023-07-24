@@ -39,10 +39,10 @@ const ContactMe = () => {
   return (
     <div className="cm-parent">
       <div className="cm-title">Contact Me</div>
-      <p style={{ textAlign: "center" }}>
-        If you have any questions, or just want to chat, contact me here.
-      </p>
-      <p>I'll get back to you as soon as I can!</p>
+      <div style={{ textAlign: "center", padding: "0px 25px" }}>
+        <p>If you have any questions, or just want to chat, contact me here.</p>
+        <p>I'll get back to you as soon as I can!</p>
+      </div>
       <div className="cm-links">links</div>
       <div className="cm-form">
         <form action={form_ep} onSubmit={handleSubmit} method="POST">

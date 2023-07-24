@@ -8,6 +8,7 @@
   align-items: center;
   align-content: stretch;
   font-size: 20px;
+  /* padding: 0px 20px; */
   font-family: system-ui;
   @media screen and (max-width: 480px) {
     font-size: 18px;
@@ -23,7 +24,7 @@
 }
 
 .cm-form {
-  width: 70vw;
+  width: 80vw;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -62,4 +63,5 @@ textarea {
 
 button {
   margin: auto;
+  margin-top: 20px;
 }
