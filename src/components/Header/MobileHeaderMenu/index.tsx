@@ -20,9 +20,33 @@ const MobileHeaderMenu = (props: any) => {
           </div>
 
           <div className="sm-links">
-            <div className="link">LinkedIn</div>
-            <div className="link">GitLab</div>
-            <div className="link">GitHub</div>
+            <div
+              className="link"
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/jena-adkins/",
+                  "_blank"
+                )
+              }
+            >
+              LinkedIn
+            </div>
+            <div
+              className="link"
+              onClick={() =>
+                window.open("https://gitlab.com/jenaadkins", "_blank")
+              }
+            >
+              GitLab
+            </div>
+            <div
+              className="link"
+              onClick={() =>
+                window.open("https://github.com/jenawen", "_blank")
+              }
+            >
+              GitHub
+            </div>
           </div>
         </div>
       </div>
