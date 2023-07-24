@@ -14,4 +14,8 @@
   letter-spacing: 4px;
   color: #804844;
   margin-top: 14vh;
+  @media screen and (max-width: 480px) {
+    margin-top: 12vh;
+    font-size: xx-large;
+  }
 }

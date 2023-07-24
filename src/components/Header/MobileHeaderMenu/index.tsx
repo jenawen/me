@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
 import x from "../../../assets/x.svg";
 const MobileHeaderMenu = (props: any) => {
-  const { setOpenMenu } = props;
+  const { setOpenMenu, setCurrent } = props;
   return (
     <div className="menu-parent">
       <div className="menu-shadow">
@@ -13,10 +14,42 @@ const MobileHeaderMenu = (props: any) => {
             }}
           />
           <div className="menu-links">
-            <div className="link">Portfolio</div>
-            <div className="link">About Me</div>
-            <div className="link">Skill Set</div>
-            <div className="link">Contact Me</div>
+            <div
+              className="link-1"
+              onClick={() => {
+                setCurrent(2);
+                setOpenMenu(false);
+              }}
+            >
+              Portfolio
+            </div>
+            <div
+              className="link-2"
+              onClick={() => {
+                setCurrent(3);
+                setOpenMenu(false);
+              }}
+            >
+              About Me
+            </div>
+            <div
+              className="link-3"
+              onClick={() => {
+                setCurrent(4);
+                setOpenMenu(false);
+              }}
+            >
+              Skill Set
+            </div>
+            <div
+              className="link-4"
+              onClick={() => {
+                setCurrent(5);
+                setOpenMenu(false);
+              }}
+            >
+              Contact Me
+            </div>
           </div>
 
           <div className="sm-links">

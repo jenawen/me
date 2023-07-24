@@ -79,7 +79,7 @@ const Wrapper = () => {
         </div>
 
         <div id="slide-5">
-          <ContactMe />
+          <ContactMe pageType={pageType} />
         </div>
       </div>
     </>

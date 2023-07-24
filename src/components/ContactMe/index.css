@@ -21,10 +21,14 @@
   letter-spacing: 4px;
   color: #804844;
   margin-top: 14vh;
+  @media screen and (max-width: 480px) {
+    margin-top: 12vh;
+    font-size: xx-large;
+  }
 }
 
 .cm-form {
-  width: 80vw;
+  width: 90vw;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -64,4 +68,10 @@ textarea {
 button {
   margin: auto;
   margin-top: 20px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+button:hover {
+  background-color: #f8bebb;
+  box-shadow: none;
 }

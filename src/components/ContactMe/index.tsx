@@ -1,6 +1,7 @@
 import "./index.css";
 
-const ContactMe = () => {
+const ContactMe = (props: any) => {
+  const { pageType } = props;
   const form_ep =
     "https://public.herotofu.com/v1/56b70060-178f-11ee-8025-97a9fb2f29da";
 
@@ -43,7 +44,9 @@ const ContactMe = () => {
         <p>If you have any questions, or just want to chat, contact me here.</p>
         <p>I'll get back to you as soon as I can!</p>
       </div>
-      <div className="cm-links">links</div>
+
+      {pageType === "desktop" ? <div className="cm-links">links</div> : null}
+
       <div className="cm-form">
         <form action={form_ep} onSubmit={handleSubmit} method="POST">
           <span>Name</span>

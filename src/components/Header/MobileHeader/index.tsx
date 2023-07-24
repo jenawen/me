@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
 import homeicon from "../../../assets/homeicon.svg";
 import menu from "../../../assets/menu.svg";
@@ -9,7 +10,9 @@ const MobileHeader = (props: any) => {
   const [openMenu, setOpenMenu] = useState(false);
   return (
     <>
-      {openMenu ? <MobileHeaderMenu setOpenMenu={setOpenMenu} /> : null}
+      {openMenu ? (
+        <MobileHeaderMenu setOpenMenu={setOpenMenu} setCurrent={setCurrent} />
+      ) : null}
       <div className="mheader-parent">
         <div
           onClick={() => {
