@@ -33,3 +33,16 @@
   background-color: #f7f1f0;
   width: 100vw;
 }
+
+.is-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0 2px 20px 0 rgb(0 0 0 / 15%);
+  background-color: #f7f1f0 !important;
+  animation: 200ms ease-in-out 0.2s normal none 1 running fadeInDown;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

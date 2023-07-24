@@ -1,11 +1,17 @@
 .cm-parent {
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+  font-size: 20px;
+  font-family: system-ui;
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
 }
 
 .cm-title {
@@ -13,4 +19,47 @@
   font-family: ebgaramond;
   letter-spacing: 4px;
   color: #804844;
+  margin-top: 14vh;
+}
+
+.cm-form {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  @media screen and (max-width: 480px) {
+    width: 80vw;
+  }
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 8px;
+  font-size: 20px;
+  font-family: system-ui;
+  margin-bottom: 25px;
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  padding: 8px;
+  font-size: 20px;
+  font-family: system-ui;
+  height: 10vh;
+
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+  }
+}
+
+button {
+  margin: auto;
 }

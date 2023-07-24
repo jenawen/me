@@ -8,6 +8,7 @@ import Portfolio from "../Portfolio/DesktopPortfolio";
 import AboutMe from "../AboutMe/index";
 import SkillSet from "../SkillSet";
 import ContactMe from "../ContactMe";
+import MobileHeader from "../Header/MobileHeader";
 
 const Wrapper = () => {
   const [pageType, setPageType] = useState("desktop");
@@ -31,11 +32,37 @@ const Wrapper = () => {
     }
   }, [current]);
 
+  useEffect(() => {
+    window.addEventListener("scroll", isSticky);
+    return () => {
+      window.removeEventListener("scroll", isSticky);
+    };
+  });
+
+  const isSticky = (e) => {
+    const header = document.querySelector(".header-section");
+    const scrollTop = window.scrollY;
+    scrollTop >= 250
+      ? header?.classList.add("is-sticky")
+      : header?.classList.remove("is-sticky");
+  };
+
   return (
     <>
-      <Header setCurrent={setCurrent} />
       <div className="parent">
         <div id="slide-1">
+          {pageType === "mobile" ? (
+            <div className="header-section d-none d-xl-block">
+              {" "}
+              <MobileHeader setCurrent={setCurrent} />{" "}
+            </div>
+          ) : (
+            <div className="header-section d-none d-xl-block">
+              {" "}
+              <Header setCurrent={setCurrent} />{" "}
+            </div>
+          )}
+
           <Landing />
         </div>
 

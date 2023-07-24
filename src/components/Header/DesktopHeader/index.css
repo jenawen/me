@@ -1,6 +1,6 @@
 .header-parent {
   width: 100%;
-  height: 15vh;
+  height: 12vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -9,16 +9,12 @@
   align-content: stretch;
   border-bottom: 1px solid #504333;
   padding: 0px 35px;
-  position: sticky;
-}
+  background-color: #f7f1f0;
 
-.icon {
-  /* padding-left: 35px; */
-  /* height: 40px; */
+  /* position: absolute; */
 }
 
 .links {
-  position: sticky;
   width: 40%;
   display: flex;
   flex-direction: row;

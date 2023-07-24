@@ -13,4 +13,21 @@
   font-family: ebgaramond;
   letter-spacing: 4px;
   color: #804844;
+  margin-top: 14vh;
+}
+
+.aboutme-text {
+  text-align: center;
+  font-size: x-large;
+  padding: 5px 190px;
+  /* font-family: nunito; */
+  color: #504333;
+  @media screen and (max-width: 1366px) {
+    font-size: 20px;
+    padding: 1px 110px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 18px;
+    padding: 1px 20px;
+  }
 }
