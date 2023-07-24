@@ -4,7 +4,7 @@ import "../../fonts/notosans.ttf";
 import { useEffect, useState } from "react";
 import Header from "../Header/DesktopHeader/index";
 import Landing from "../Landing/DesktopLanding/index";
-import Portfolio from "../Portfolio/DesktopPortfolio";
+import Portfolio from "../Portfolio/Portfolio";
 import AboutMe from "../AboutMe/index";
 import SkillSet from "../SkillSet";
 import ContactMe from "../ContactMe";

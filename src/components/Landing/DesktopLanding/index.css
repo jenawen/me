@@ -11,6 +11,7 @@
 
   @media screen and (max-width: 1366px) {
     padding: 0px 90px;
+    /* overflow-y: hidden */
   }
   @media screen and (max-width: 480px) {
     height: 100vh;
