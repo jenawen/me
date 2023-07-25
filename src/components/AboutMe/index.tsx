@@ -40,9 +40,11 @@ const AboutMe = () => {
 
         <p>
           In my free time, I love doing nail art and visiting dessert cafes
-          across Las Vegas. I can never say no to coffee or boba :) I also love
-          cars and mechanical drafting; I have a project car I've been working
-          on for 8 years now!
+          across Las Vegas. I can never say no to{" "}
+          <span style={{ color: "#DC7384" }}>coffee or boba</span> :) I also
+          love cars and mechanical drafting; I have a{" "}
+          <span style={{ color: "#DC7384" }}>project car</span> I've been
+          working on for 8 years now!
         </p>
 
         <p>Click here to download my resume!</p>

@@ -21,10 +21,16 @@
 }
 
 .see-more {
-  font-size: x-large;
+  font-size: large;
+  @media screen and (max-width: 480px) {
+    font-size: large;
+  }
 }
 .see-more:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color: #e8536c;
   opacity: 70%;
+  @media screen and (max-width: 480px) {
+    font-size: large;
+  }
 }

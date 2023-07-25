@@ -8,8 +8,8 @@
   justify-content: center;
   align-items: center;
   align-content: stretch;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 .top-template {
@@ -26,10 +26,7 @@
   width: 520px;
   height: 270px;
   background-color: white;
-  /* top: 30px;
-  left: 160px;
-  position: absolute; */
-  /* position: fixed; */
+
   margin-right: 10px;
 }
 
@@ -101,4 +98,14 @@
   font-family: ebgaramond;
   font-size: xx-large;
   letter-spacing: 1.8px;
+}
+
+.link-p {
+  color: #dc7384;
+}
+
+.link-p:hover {
+  color: #dc7384;
+  opacity: 70%;
+  text-decoration: underline;
 }

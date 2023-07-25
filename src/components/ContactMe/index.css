@@ -11,7 +11,7 @@
   /* padding: 0px 20px; */
   font-family: system-ui;
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: medium;
   }
 }
 
@@ -60,7 +60,7 @@ input {
   font-family: system-ui;
   margin-bottom: 25px;
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: medium;
   }
 }
 
@@ -73,11 +73,11 @@ textarea {
   height: 10vh;
 
   @media screen and (max-width: 480px) {
-    font-size: 18px;
+    font-size: medium;
   }
 }
 
-button {
+/* button {
   margin: auto;
   margin-top: 20px;
   box-shadow: 2px 2px 5px grey;
@@ -86,7 +86,7 @@ button {
 button:hover {
   background-color: #f8bebb;
   box-shadow: none;
-}
+} */
 .cm-l {
   width: 35px;
   filter: invert(23%) sepia(41%) saturate(336%) hue-rotate(353deg)

@@ -16,7 +16,12 @@ const PortfolioTemplate = (props: any) => {
           <p>{involve}</p>
 
           {live ? (
-            <p onClick={() => window.open(` ${live}`, "_blank")}>{viewText}</p>
+            <p
+              className="link-p"
+              onClick={() => window.open(` ${live}`, "_blank")}
+            >
+              {viewText}
+            </p>
           ) : null}
         </div>
       </div>

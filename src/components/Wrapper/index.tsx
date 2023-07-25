@@ -67,7 +67,7 @@ const Wrapper = () => {
         </div>
 
         <div id="slide-2">
-          <Portfolio />
+          <Portfolio pageType={pageType} />
         </div>
 
         <div id="slide-3">

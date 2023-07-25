@@ -19,3 +19,102 @@
     font-size: xx-large;
   }
 }
+
+.title {
+  padding: 10px 15px 5px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+h2 {
+  font-size: small;
+  font-weight: 400;
+  @media (max-width: 1350px) {
+    font-size: small;
+    font-weight: 400;
+  }
+  @media (max-width: 480px) {
+    font-size: medium;
+    font-weight: 400;
+  }
+}
+
+.list {
+  text-align: left;
+  padding-left: 25px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  height: 70px;
+  width: 70px;
+  letter-spacing: 1px;
+  filter: invert(39%) sepia(8%) saturate(837%) hue-rotate(361deg)
+    brightness(93%) contrast(93%);
+
+  @media (max-width: 1350px) {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    height: 50px;
+    width: 50px;
+    letter-spacing: 1px;
+    filter: invert(39%) sepia(8%) saturate(837%) hue-rotate(361deg)
+      brightness(93%) contrast(93%);
+  }
+  @media (max-width: 480px) {
+    height: 70vh;
+    padding-top: 40px;
+    height: 30px;
+    width: 30px;
+    font-size: small;
+  }
+}
+
+.icon:hover {
+  filter: invert(59%) sepia(8%) saturate(837%) hue-rotate(361deg)
+    brightness(93%) contrast(93%);
+}
+
+.skills-row {
+  padding: 3rem 3rem 3rem 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-between;
+
+  @media (max-width: 1350px) {
+    padding: 3rem 3rem 2rem 3rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-between;
+  }
+  @media (max-width: 480px) {
+    padding: 0rem 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: space-between;
+  }
+}
