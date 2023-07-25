@@ -6,7 +6,7 @@ import uw1 from "../../../assets/portfoliopics/uw1.png";
 import c1b from "../../../assets/c1b.svg";
 import journal from "../../../assets/portfoliopics/journal.png";
 import liptint from "../../../assets/portfoliopics/liptint.png";
-import sawara from "../../../assets/portfoliopics/sawara.svg";
+import sawara from "../../../assets/portfoliopics/sawara.png";
 import portfolio from "../../../assets/portfoliopics/portfolio.png";
 import portfolio2 from "../../../assets/portfoliopics/portfolio2.png";
 import MobilePortfolio from "../MobilePortfolio";
@@ -14,6 +14,11 @@ import MobilePortfolio from "../MobilePortfolio";
 const Portfolio = (props: any) => {
   const { pageType } = props;
   const [seeMore, setSeeMore] = useState(false);
+
+  const hello = [
+    { text: "hihie0", status: "def" },
+    { text: "BABANAN", status: "maintain" },
+  ];
 
   return (
     <div className="portfolio-container">
@@ -282,6 +287,7 @@ const Portfolio = (props: any) => {
             type={"1"}
             date={"2021-2022"}
             img={c1b}
+            pillArray={[{ text: "awaa", status: "maintain" }]}
           />
 
           <PortfolioTemplate
@@ -307,6 +313,7 @@ const Portfolio = (props: any) => {
             }
             type={"2"}
             img={uw1}
+            pillArray={[{ text: "awaa", status: "maintain" }]}
           />
 
           <PortfolioTemplate
@@ -330,6 +337,7 @@ const Portfolio = (props: any) => {
             }
             type={"1"}
             img={c1b}
+            pillArray={[{ text: "awaa", status: "maintain" }]}
           />
 
           {!seeMore ? (
@@ -367,6 +375,7 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={journal}
+                pillArray={[{ text: "awaa", status: "maintain" }]}
               />
               <PortfolioTemplate
                 title={"Lip Tint Picker"}
@@ -391,6 +400,7 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"1"}
                 img={liptint}
+                pillArray={[{ text: "awaa", status: "maintain" }]}
               />
               <PortfolioTemplate
                 title={"Sawara's Portfolio"}
@@ -414,6 +424,7 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"2"}
                 img={sawara}
+                pillArray={[{ text: "awaa", status: "maintain" }]}
               />
               <PortfolioTemplate
                 title={"Personal Portfolio V.1"}
@@ -439,6 +450,7 @@ const Portfolio = (props: any) => {
                 }
                 type={"1"}
                 img={portfolio}
+                pillArray={[{ text: "awaa", status: "maintain" }]}
               />
               <PortfolioTemplate
                 title={"Personal Portfolio V.2"}
@@ -469,6 +481,7 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={portfolio2}
+                pillArray={hello}
               />
 
               <button

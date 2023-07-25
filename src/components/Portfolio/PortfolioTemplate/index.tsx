@@ -1,7 +1,11 @@
 import Pill from "../../Pill";
 import "./index.css";
+
 const PortfolioTemplate = (props: any) => {
-  const { title, status, involve, img, desc, type, live, viewText } = props;
+  const { title, status, involve, img, desc, type, live, viewText, pillArray } =
+    props;
+
+  //   console.log(pillArray);
   return (
     <div className="template-parent">
       <div className="top-template">
@@ -28,7 +32,13 @@ const PortfolioTemplate = (props: any) => {
         </div>
       </div>
 
-      <div>
+      <div className="bottom-template">
+        <div className="pill-text">
+          {console.log(pillArray)}
+          {pillArray.map((e, i) => (
+            <Pill text={e.text} status={e.status} />
+          ))}
+        </div>
         <div className={`desc-${type}`}>{desc}</div>
       </div>
     </div>
