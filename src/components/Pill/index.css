@@ -1,0 +1,53 @@
+.pill-def {
+  border-radius: 20px;
+  font-size: small;
+  /* width: 25px; */
+  margin: auto;
+  padding: 1px 10px;
+  display: inline-block;
+  margin: 5px;
+
+  color: #8c5551;
+  border: 1px solid #8c5551;
+}
+.pill-def:hover {
+  border: 1px solid #e7c6bc;
+  color: #e7c6bc;
+}
+
+.pill-inprogress {
+  border-radius: 20px;
+  font-size: small;
+  /* width: 25px; */
+  margin: auto;
+  padding: 1px 10px;
+  display: inline-block;
+  margin: 5px;
+
+  background-color: #faa72c;
+  border: 1px solid #867306;
+}
+.pill-maintain {
+  border-radius: 20px;
+  font-size: small;
+  /* width: 25px; */
+  margin: auto;
+  padding: 1px 10px;
+  display: inline-block;
+  margin: 5px;
+
+  background-color: #f8ded7;
+  border: 1px solid #867306;
+}
+.pill-deployed {
+  border-radius: 20px;
+  font-size: small;
+  /* width: 25px; */
+  margin: auto;
+  padding: 1px 10px;
+  display: inline-block;
+  margin: 5px;
+
+  background-color: #b0dd86;
+  border: 1px solid #0f2b02;
+}

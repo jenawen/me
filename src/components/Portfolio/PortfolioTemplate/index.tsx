@@ -1,7 +1,7 @@
+import Pill from "../../Pill";
 import "./index.css";
 const PortfolioTemplate = (props: any) => {
-  const { title, status, involve, img, date, desc, type, live, viewText } =
-    props;
+  const { title, status, involve, img, desc, type, live, viewText } = props;
   return (
     <div className="template-parent">
       <div className="top-template">
@@ -11,8 +11,10 @@ const PortfolioTemplate = (props: any) => {
 
         <div className="side-text">
           <div className="side-title">{title}</div>
-          <p>{date}</p>
-          <p>Current status: {status}</p>
+
+          <p>
+            Current status: <Pill text={status} status={"maintain"} />
+          </p>
           <p>{involve}</p>
 
           {live ? (
@@ -25,7 +27,10 @@ const PortfolioTemplate = (props: any) => {
           ) : null}
         </div>
       </div>
-      <div className={`desc-${type}`}>{desc}</div>
+
+      <div>
+        <div className={`desc-${type}`}>{desc}</div>
+      </div>
     </div>
   );
 };

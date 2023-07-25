@@ -3,7 +3,7 @@ import PortfolioTemplate from "../PortfolioTemplate/index";
 import "./index.css";
 // import regz from "../../../assets/portfoliopics/regz.png";
 import uw1 from "../../../assets/portfoliopics/uw1.png";
-import c1b from "../../../assets/c1b_logo_rgb.jpg";
+import c1b from "../../../assets/c1b.svg";
 import journal from "../../../assets/portfoliopics/journal.png";
 import liptint from "../../../assets/portfoliopics/liptint.png";
 import sawara from "../../../assets/portfoliopics/sawara.svg";
@@ -49,7 +49,6 @@ const Portfolio = (props: any) => {
               </>
             }
             type={"1"}
-            date={"2021-2022"}
             img={c1b}
           />
           <MobilePortfolio
