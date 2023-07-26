@@ -104,7 +104,7 @@ const ContactMe = (props: any) => {
         </div>{" "}
       </div>
       {pageType === "desktop" ? (
-        <div style={{ fontSize: "medium", paddingBottom: "15px" }}>
+        <div style={{ fontSize: "small", paddingBottom: "15px" }}>
           Designed and developed with love by Jena Adkins. 2023.
         </div>
       ) : null}
