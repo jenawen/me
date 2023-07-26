@@ -39,7 +39,7 @@ const Wrapper = () => {
     };
   });
 
-  const isSticky = (e: any) => {
+  const isSticky = () => {
     const header = document.querySelector(".header-section");
     const scrollTop = window.scrollY;
     scrollTop >= 250
