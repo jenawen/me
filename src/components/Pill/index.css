@@ -28,6 +28,7 @@
   padding: 1px 10px;
   display: inline-block;
   margin: 5px;
+  color: #504333;
 
   background-color: #faa72c;
   border: 1px solid #867306;
@@ -44,7 +45,7 @@
   padding: 1px 10px;
   display: inline-block;
   margin: 5px;
-
+  color: #504333;
   background-color: #f8ded7;
   border: 1px solid #867306;
   @media screen and (max-width: 480px) {
@@ -60,6 +61,7 @@
   padding: 1px 10px;
   display: inline-block;
   margin: 5px;
+  color: #504333;
 
   background-color: #b0dd86;
   border: 1px solid #0f2b02;

@@ -8,10 +8,15 @@
   align-content: stretch;
   font-size: large;
   padding: 15px;
+  color: #504333;
+
   @media screen and (max-width: 480px) {
     height: 100vh;
     text-align: center;
     font-size: medium;
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 15px;
   }
 }
 

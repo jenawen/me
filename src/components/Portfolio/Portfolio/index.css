@@ -6,6 +6,10 @@
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+
+  @media screen and (max-width: 360px) {
+    padding-bottom: 70px;
+  }
 }
 
 .portfolio-title {
@@ -22,7 +26,7 @@
 
 .see-more {
   font-size: 20px;
-
+  margin: auto;
   @media screen and (max-width: 480px) {
     font-size: large;
   }

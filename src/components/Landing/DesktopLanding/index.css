@@ -34,11 +34,17 @@
   @media screen and (max-width: 480px) {
     margin-top: none;
   }
+  @media screen and (max-width: 360px) {
+    margin-top: -70px;
+  }
 }
 
 img {
   @media screen and (max-width: 480px) {
     max-width: 250px;
+  }
+  @media screen and (max-width: 360px) {
+    max-width: 210px;
   }
 }
 
@@ -63,12 +69,10 @@ img {
   }
   @media screen and (max-width: 480px) {
     font-size: large;
-    /* display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch; */
+  }
+  @media screen and (max-width: 360px) {
+    margin-top: -50px;
+    font-size: medium;
   }
 }
 
@@ -85,6 +89,10 @@ img {
     font-size: xx-large;
 
     margin-top: -40px;
+  }
+  @media screen and (max-width: 360px) {
+    margin-top: -50px;
+    font-size: x-large;
   }
 }
 

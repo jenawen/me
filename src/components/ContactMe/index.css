@@ -8,10 +8,15 @@
   align-items: center;
   align-content: center;
   font-size: large;
+  color: #504333;
+
   /* padding: 0px 20px; */
   font-family: system-ui;
   @media screen and (max-width: 480px) {
     font-size: medium;
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 15px;
   }
 }
 
@@ -63,6 +68,8 @@ input {
   font-size: large;
   font-family: system-ui;
   margin-bottom: 25px;
+  color: #504333;
+
   @media screen and (max-width: 480px) {
     font-size: medium;
   }
@@ -75,6 +82,7 @@ textarea {
   font-size: large;
   font-family: system-ui;
   height: 10vh;
+  color: #504333;
 
   @media screen and (max-width: 480px) {
     font-size: medium;
