@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
 import PortfolioTemplate from "../PortfolioTemplate/index";
 import "./index.css";

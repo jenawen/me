@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Pill from "../../Pill";
 import "./index.css";
 
@@ -15,7 +16,6 @@ const PortfolioTemplate = (props: any) => {
     pillArray,
   } = props;
 
-  //   console.log(pillArray);
   return (
     <div className="template-parent">
       <div className="top-template">
@@ -44,8 +44,7 @@ const PortfolioTemplate = (props: any) => {
 
       <div className="bottom-template">
         <div className="pill-text">
-          {console.log(pillArray)}
-          {pillArray.map((e, i) => (
+          {pillArray.map((e: { text: string; status: string }) => (
             <Pill text={e.text} status={e.status} />
           ))}
         </div>

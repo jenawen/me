@@ -1,5 +1,6 @@
 import "./index.css";
 import "../../fonts/notosans.ttf";
+import resume from "../../../public/adkinsjena_resume_2023.pdf";
 const AboutMe = () => {
   return (
     <div className="aboutme-parent">
@@ -47,7 +48,17 @@ const AboutMe = () => {
           working on for 8 years now!
         </p>
 
-        <p>Click here to download my resume!</p>
+        <p>
+          {" "}
+          <a
+            href={resume}
+            download="adkinsjena_resume_2023"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Click here to download my resume!
+          </a>
+        </p>
       </div>
     </div>
   );

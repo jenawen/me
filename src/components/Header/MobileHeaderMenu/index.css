@@ -19,6 +19,13 @@
   z-index: 0;
 }
 
+.menu-bottom {
+  font-size: x-small;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #dc7384;
+}
+
 .menu-card {
   width: 75vw;
   height: 100vh;
@@ -26,6 +33,12 @@
   position: absolute;
   z-index: 5;
   box-shadow: -3px 0px 10px rgb(179, 179, 179);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: stretch;
 }
 
 .menu-links {
@@ -48,9 +61,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: baseline;
-  align-content: space-around;
+  align-content: center;
   padding-top: 20px;
   width: 100%;
 }
@@ -87,6 +100,16 @@
   text-decoration: underline;
   color: #e8536c;
   opacity: 70%;
+}
+
+.linky {
+  filter: invert(22%) sepia(39%) saturate(380%) hue-rotate(353deg)
+    brightness(96%) contrast(85%);
+}
+
+.linky:hover {
+  filter: invert(45%) sepia(77%) saturate(4167%) hue-rotate(327deg)
+    brightness(111%) contrast(82%);
 }
 
 #slide {

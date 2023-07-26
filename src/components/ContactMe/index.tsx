@@ -1,9 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
 
 import linkedin from "../../assets/linkedin.svg";
 import github from "../../assets/github.svg";
 import gitlab from "../../assets/gitlab.svg";
 import discord from "../../assets/discord.svg";
+import { ToolTip } from "../ToolTip";
 
 const ContactMe = (props: any) => {
   const { pageType } = props;
@@ -44,51 +46,66 @@ const ContactMe = (props: any) => {
 
   return (
     <div className="cm-parent">
-      <div className="cm-title">Contact Me</div>
-      <div style={{ textAlign: "center", padding: "0px 25px" }}>
-        <p>If you have any questions, or just want to chat, contact me here.</p>
-        <p>I'll get back to you as soon as I can!</p>
-      </div>
-
-      {pageType === "desktop" ? (
-        <div className="cm-links">
-          <img
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/jena-adkins/", "_blank")
-            }
-            className="cm-l"
-            src={linkedin}
-          />
-          <img
-            onClick={() => window.open("https://github.com/jenawen", "_blank")}
-            className="cm-l"
-            src={github}
-          />
-          <img
-            onClick={() =>
-              window.open("https://gitlab.com/jenaadkins", "_blank")
-            }
-            className="cm-l"
-            src={gitlab}
-          />
-          <img className="cm-l" src={discord} />
+      <div>
+        {" "}
+        <div className="cm-title">Contact Me</div>
+        <div style={{ textAlign: "center", padding: "0px 25px" }}>
+          <p>
+            If you have any questions, or just want to chat, contact me here.
+          </p>
+          <p>I'll get back to you as soon as I can!</p>
         </div>
-      ) : null}
+        {pageType === "desktop" ? (
+          <div className="cm-links">
+            <img
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/jena-adkins/",
+                  "_blank"
+                )
+              }
+              className="cm-l"
+              src={linkedin}
+            />
+            <img
+              onClick={() =>
+                window.open("https://github.com/jenawen", "_blank")
+              }
+              className="cm-l"
+              src={github}
+            />
+            <img
+              onClick={() =>
+                window.open("https://gitlab.com/jenaadkins", "_blank")
+              }
+              className="cm-l"
+              src={gitlab}
+            />
 
-      <div className="cm-form">
-        <form action={form_ep} onSubmit={handleSubmit} method="POST">
-          <span>Name</span>
-          <input type="text" placeholder="Your name" name="name" required />
-
-          <span>Email</span>
-          <input type="email" placeholder="Email" name="email" />
-
-          <span>Message</span>
-          <textarea placeholder="Your message" name="message" required />
-          <div style={{ textAlign: "center" }}>
-            <button type="submit">Send</button>{" "}
+            <ToolTip displayText={"jenawen#0"} position={"top"}>
+              <img className="cm-l" src={discord} />
+            </ToolTip>
           </div>
-        </form>
+        ) : null}
+        <div className="cm-form">
+          <form action={form_ep} onSubmit={handleSubmit} method="POST">
+            <span>Name</span>
+            <input type="text" placeholder="Your name" name="name" required />
+
+            <span>Email</span>
+            <input type="email" placeholder="Email" name="email" />
+
+            <span>Message</span>
+            <textarea placeholder="Your message" name="message" required />
+            <div style={{ textAlign: "center" }}>
+              <button type="submit">Send</button>{" "}
+            </div>
+          </form>
+        </div>{" "}
+      </div>
+      <div style={{ fontSize: "medium", paddingBottom: "15px" }}>
+        {" "}
+        Designed and developed with love by Jena Adkins. 2023.
       </div>
     </div>
   );

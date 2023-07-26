@@ -1,5 +1,6 @@
 import Pill from "../../Pill";
 import "./index.css";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const MobilePortfolio = (props: any) => {
   const {
     title,
@@ -36,8 +37,7 @@ const MobilePortfolio = (props: any) => {
 
       <div className={`desc-${type}-m`}>{desc}</div>
       <div className="pill-text">
-        {console.log(pillArray)}
-        {pillArray.map((e, i) => (
+        {pillArray.map((e: { text: string; status: string }) => (
           <Pill text={e.text} status={e.status} />
         ))}
       </div>
