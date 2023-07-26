@@ -53,12 +53,24 @@ const Portfolio = (props: any) => {
     { text: "CSS", status: "def" },
   ];
 
-  const portfolios = [
+  const sawarap = [
     { text: "React", status: "def" },
     { text: "TypeScript", status: "def" },
     { text: "HTML", status: "def" },
     { text: "CSS", status: "def" },
+    { text: "HeroTofu", status: "def" },
     { text: "Figma", status: "def" },
+    { text: "Vercel", status: "def" },
+  ];
+
+  const p2 = [
+    { text: "React", status: "def" },
+    { text: "TypeScript", status: "def" },
+    { text: "HTML", status: "def" },
+    { text: "CSS", status: "def" },
+    { text: "HeroTofu", status: "def" },
+    { text: "Figma", status: "def" },
+    { text: "GitHub Pages", status: "def" },
   ];
 
   return (
@@ -238,7 +250,7 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"2"}
                 img={sawara}
-                pillArray={portfolios}
+                pillArray={sawarap}
               />
               <MobilePortfolio
                 title={"Personal Portfolio V.1"}
@@ -297,7 +309,7 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={portfolio2}
-                pillArray={portfolios}
+                pillArray={p2}
               />
 
               <button
@@ -487,7 +499,7 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"2"}
                 img={sawara}
-                pillArray={portfolios}
+                pillArray={sawarap}
               />
               <PortfolioTemplate
                 title={"Personal Portfolio V.1"}
@@ -546,7 +558,7 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={portfolio2}
-                pillArray={portfolios}
+                pillArray={p2}
               />
 
               <button
