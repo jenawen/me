@@ -69,7 +69,7 @@ input {
   font-family: system-ui;
   margin-bottom: 25px;
   color: #504333;
-
+  background-color: white;
   @media screen and (max-width: 480px) {
     font-size: medium;
   }
@@ -83,6 +83,7 @@ textarea {
   font-family: system-ui;
   height: 10vh;
   color: #504333;
+  background-color: white;
 
   @media screen and (max-width: 480px) {
     font-size: medium;
