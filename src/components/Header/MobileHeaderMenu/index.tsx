@@ -1,6 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
 import x from "../../../assets/x.svg";
+import linkedin from "../../../assets/linkedin.svg";
+import github from "../../../assets/github.svg";
+import gitlab from "../../../assets/gitlab.svg";
+
 const MobileHeaderMenu = (props: any) => {
   const { setOpenMenu, setCurrent } = props;
   return (
@@ -62,7 +66,7 @@ const MobileHeaderMenu = (props: any) => {
                 )
               }
             >
-              LinkedIn
+              <img src={linkedin} style={{ width: "30px" }} />
             </div>
             <div
               className="link"
@@ -70,7 +74,7 @@ const MobileHeaderMenu = (props: any) => {
                 window.open("https://gitlab.com/jenaadkins", "_blank")
               }
             >
-              GitLab
+              <img src={gitlab} style={{ width: "30px" }} />
             </div>
             <div
               className="link"
@@ -78,7 +82,7 @@ const MobileHeaderMenu = (props: any) => {
                 window.open("https://github.com/jenawen", "_blank")
               }
             >
-              GitHub
+              <img src={github} style={{ width: "30px" }} />
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 .pill-def {
   border-radius: 20px;
-  font-size: small;
+  font-size: 14px;
+
   /* width: 25px; */
   margin: auto;
   padding: 1px 10px;
@@ -9,15 +10,19 @@
 
   color: #8c5551;
   border: 1px solid #8c5551;
+  @media screen and (max-width: 480px) {
+    font-size: small;
+  }
 }
 .pill-def:hover {
   border: 1px solid #e7c6bc;
   color: #e7c6bc;
 }
 
-.pill-inprogress {
+.pill-ongoing {
   border-radius: 20px;
-  font-size: small;
+  font-size: 14px;
+
   /* width: 25px; */
   margin: auto;
   padding: 1px 10px;
@@ -26,10 +31,14 @@
 
   background-color: #faa72c;
   border: 1px solid #867306;
+  @media screen and (max-width: 480px) {
+    font-size: small;
+  }
 }
 .pill-maintain {
   border-radius: 20px;
-  font-size: small;
+  font-size: 14px;
+
   /* width: 25px; */
   margin: auto;
   padding: 1px 10px;
@@ -38,10 +47,14 @@
 
   background-color: #f8ded7;
   border: 1px solid #867306;
+  @media screen and (max-width: 480px) {
+    font-size: small;
+  }
 }
 .pill-deployed {
   border-radius: 20px;
-  font-size: small;
+  font-size: 14px;
+
   /* width: 25px; */
   margin: auto;
   padding: 1px 10px;
@@ -50,4 +63,7 @@
 
   background-color: #b0dd86;
   border: 1px solid #0f2b02;
+  @media screen and (max-width: 480px) {
+    font-size: small;
+  }
 }

@@ -15,9 +15,49 @@ const Portfolio = (props: any) => {
   const { pageType } = props;
   const [seeMore, setSeeMore] = useState(false);
 
-  const hello = [
-    { text: "hihie0", status: "def" },
-    { text: "BABANAN", status: "maintain" },
+  const regzUW = [
+    { text: "React", status: "def" },
+    { text: "TypeScript", status: "def" },
+    { text: "HTML", status: "def" },
+    { text: "SASS", status: "def" },
+    { text: "Jest", status: "def" },
+  ];
+  const db = [
+    { text: "React", status: "def" },
+    { text: "TypeScript", status: "def" },
+    { text: "Jest", status: "def" },
+  ];
+
+  const jrnl = [
+    { text: "React", status: "def" },
+    { text: "TypeScript", status: "def" },
+    { text: "CSS", status: "def" },
+    { text: "Chart.js", status: "def" },
+  ];
+
+  const p1 = [
+    { text: "Vite", status: "def" },
+    { text: "React", status: "def" },
+    { text: "TypeScript", status: "def" },
+    { text: "HTML", status: "def" },
+    { text: "CSS", status: "def" },
+    { text: "HeroTofu", status: "def" },
+    { text: "GitLab Pages", status: "def" },
+  ];
+
+  const ltp = [
+    { text: "React", status: "def" },
+    { text: "TypeScript", status: "def" },
+    { text: "HTML", status: "def" },
+    { text: "CSS", status: "def" },
+  ];
+
+  const portfolios = [
+    { text: "React", status: "def" },
+    { text: "TypeScript", status: "def" },
+    { text: "HTML", status: "def" },
+    { text: "CSS", status: "def" },
+    { text: "Figma", status: "def" },
   ];
 
   return (
@@ -29,6 +69,7 @@ const Portfolio = (props: any) => {
           <MobilePortfolio
             title={"Reg Z Calculator"}
             status={"Deployed"}
+            pillType={"deployed"}
             involve={"Front-end, Unit testing"}
             desc={
               <>
@@ -55,10 +96,12 @@ const Portfolio = (props: any) => {
             }
             type={"1"}
             img={c1b}
+            pillArray={regzUW}
           />
           <MobilePortfolio
             title={"Underwriting"}
             status={"Deployed"}
+            pillType={"deployed"}
             involve={"Front-end, Unit testing, Documentation"}
             desc={
               <>
@@ -79,11 +122,13 @@ const Portfolio = (props: any) => {
             }
             type={"2"}
             img={uw1}
+            pillArray={regzUW}
           />
 
           <MobilePortfolio
             title={"Digital Bank"}
-            status={"On-going"}
+            status={"In-progress"}
+            pillType={"ongoing"}
             involve={"Custom form creation/handling, Unit Testing"}
             desc={
               <>
@@ -102,24 +147,26 @@ const Portfolio = (props: any) => {
             }
             type={"1"}
             img={c1b}
+            pillArray={db}
           />
 
           {!seeMore ? (
-            <div
+            <button
               className="see-more"
               onClick={() => {
                 setSeeMore(true);
               }}
             >
               See More
-            </div>
+            </button>
           ) : null}
 
           {seeMore ? (
             <>
               <MobilePortfolio
                 title={"Glucose Journal"}
-                status={"On-going"}
+                status={"In-progress"}
+                pillType={"ongoing"}
                 involve={"Front-end, Design, Unit Testing"}
                 desc={
                   <>
@@ -139,10 +186,12 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={journal}
+                pillArray={jrnl}
               />
               <MobilePortfolio
                 title={"Lip Tint Picker"}
-                status={"On-going"}
+                status={"In-progress"}
+                pillType={"ongoing"}
                 involve={"Front-end, Design, Unit Testing"}
                 desc={
                   <>
@@ -163,10 +212,12 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"1"}
                 img={liptint}
+                pillArray={ltp}
               />
               <MobilePortfolio
                 title={"Sawara's Portfolio"}
-                status={"On-going"}
+                status={"In-progress"}
+                pillType={"ongoing"}
                 involve={"Front-end, Unit testing"}
                 desc={
                   <>
@@ -186,10 +237,12 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"2"}
                 img={sawara}
+                pillArray={portfolios}
               />
               <MobilePortfolio
                 title={"Personal Portfolio V.1"}
                 status={"Deployed"}
+                pillType={"deployed"}
                 involve={"Front-end, Unit testing"}
                 live={"https://jenaadkins.gitlab.io/portfolio/"}
                 viewText={"View Live"}
@@ -211,10 +264,12 @@ const Portfolio = (props: any) => {
                 }
                 type={"1"}
                 img={portfolio}
+                pillArray={p1}
               />
               <MobilePortfolio
                 title={"Personal Portfolio V.2"}
-                status={"Deployed"}
+                status={"Maintenance"}
+                pillType={"maintain"}
                 involve={"Front-end, Design, Unit testing"}
                 live={
                   "https://www.figma.com/file/OwdsgAMnJqcj0HZVGCABxU/Portfolio-Pt2?type=design&node-id=0%3A1&mode=design&t=2mbYdgFCf1th3d7r-1"
@@ -241,9 +296,10 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={portfolio2}
+                pillArray={portfolios}
               />
 
-              <div
+              <button
                 className="see-more"
                 onClick={() => {
                   setSeeMore(false);
@@ -251,7 +307,7 @@ const Portfolio = (props: any) => {
               >
                 {" "}
                 See Less{" "}
-              </div>
+              </button>
             </>
           ) : null}
         </>
@@ -260,6 +316,7 @@ const Portfolio = (props: any) => {
           <PortfolioTemplate
             title={"Regulation Z Calculator"}
             status={"Deployed"}
+            pillType={"deployed"}
             involve={"Front-end, Unit testing"}
             desc={
               <>
@@ -287,12 +344,13 @@ const Portfolio = (props: any) => {
             type={"1"}
             date={"2021-2022"}
             img={c1b}
-            pillArray={[{ text: "awaa", status: "maintain" }]}
+            pillArray={regzUW}
           />
 
           <PortfolioTemplate
             title={"Underwriting"}
             status={"Deployed"}
+            pillType={"deployed"}
             involve={"Front-end, Unit testing, Documentation"}
             desc={
               <>
@@ -313,12 +371,13 @@ const Portfolio = (props: any) => {
             }
             type={"2"}
             img={uw1}
-            pillArray={[{ text: "awaa", status: "maintain" }]}
+            pillArray={regzUW}
           />
 
           <PortfolioTemplate
             title={"Digital Bank"}
-            status={"On-going"}
+            status={"In-progress"}
+            pillType={"ongoing"}
             involve={"Custom form creation/handling, Unit Testing"}
             desc={
               <>
@@ -337,7 +396,7 @@ const Portfolio = (props: any) => {
             }
             type={"1"}
             img={c1b}
-            pillArray={[{ text: "awaa", status: "maintain" }]}
+            pillArray={db}
           />
 
           {!seeMore ? (
@@ -355,7 +414,8 @@ const Portfolio = (props: any) => {
             <>
               <PortfolioTemplate
                 title={"Glucose Journal"}
-                status={"On-going"}
+                status={"In-progress"}
+                pillType={"ongoing"}
                 involve={"Front-end, Design, Unit Testing"}
                 desc={
                   <>
@@ -375,11 +435,12 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={journal}
-                pillArray={[{ text: "awaa", status: "maintain" }]}
+                pillArray={jrnl}
               />
               <PortfolioTemplate
                 title={"Lip Tint Picker"}
-                status={"On-going"}
+                status={"In-progress"}
+                pillType={"ongoing"}
                 involve={"Front-end, Design, Unit Testing"}
                 desc={
                   <>
@@ -400,11 +461,12 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"1"}
                 img={liptint}
-                pillArray={[{ text: "awaa", status: "maintain" }]}
+                pillArray={ltp}
               />
               <PortfolioTemplate
                 title={"Sawara's Portfolio"}
-                status={"On-going"}
+                status={"In-progress"}
+                pillType={"ongoing"}
                 involve={"Front-end, Unit testing"}
                 desc={
                   <>
@@ -424,11 +486,12 @@ const Portfolio = (props: any) => {
                 viewText={"View GitHub Repository"}
                 type={"2"}
                 img={sawara}
-                pillArray={[{ text: "awaa", status: "maintain" }]}
+                pillArray={portfolios}
               />
               <PortfolioTemplate
                 title={"Personal Portfolio V.1"}
                 status={"Deployed"}
+                pillType={"deployed"}
                 involve={"Front-end, Unit testing"}
                 live={"https://jenaadkins.gitlab.io/portfolio/"}
                 viewText={"View Live"}
@@ -450,11 +513,12 @@ const Portfolio = (props: any) => {
                 }
                 type={"1"}
                 img={portfolio}
-                pillArray={[{ text: "awaa", status: "maintain" }]}
+                pillArray={p1}
               />
               <PortfolioTemplate
                 title={"Personal Portfolio V.2"}
-                status={"Deployed"}
+                status={"Maintenance"}
+                pillType={"maintain"}
                 involve={"Front-end, Design, Unit testing"}
                 live={
                   "https://www.figma.com/file/OwdsgAMnJqcj0HZVGCABxU/Portfolio-Pt2?type=design&node-id=0%3A1&mode=design&t=2mbYdgFCf1th3d7r-1"
@@ -481,7 +545,7 @@ const Portfolio = (props: any) => {
                 }
                 type={"2"}
                 img={portfolio2}
-                pillArray={hello}
+                pillArray={portfolios}
               />
 
               <button

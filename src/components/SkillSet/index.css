@@ -1,11 +1,17 @@
 .skill-parent {
-  height: 100vh;
+  height: 110vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
   align-content: stretch;
+  font-size: large;
+  padding: 10px;
+  @media screen and (max-width: 480px) {
+    height: 100vh;
+    text-align: center;
+  }
 }
 
 .skill-title {
@@ -20,37 +26,17 @@
   }
 }
 
-.title {
-  padding: 10px 15px 5px 15px;
-  font-size: 14px;
-  font-weight: 600;
+.skills-cont {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: stretch;
+  justify-content: flex-start;
+  align-items: center;
   align-content: stretch;
+  width: 100%;
 }
 
-h2 {
-  font-size: small;
-  font-weight: 400;
-  @media (max-width: 1350px) {
-    font-size: small;
-    font-weight: 400;
-  }
-  @media (max-width: 480px) {
-    font-size: medium;
-    font-weight: 400;
-  }
-}
-
-.list {
-  text-align: left;
-  padding-left: 25px;
-}
-
-.icon {
+.icon-skill {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -60,8 +46,8 @@ h2 {
   height: 70px;
   width: 70px;
   letter-spacing: 1px;
-  filter: invert(39%) sepia(8%) saturate(837%) hue-rotate(361deg)
-    brightness(93%) contrast(93%);
+  filter: invert(22%) sepia(39%) saturate(380%) hue-rotate(353deg)
+    brightness(96%) contrast(85%);
 
   @media (max-width: 1350px) {
     display: flex;
@@ -73,8 +59,6 @@ h2 {
     height: 50px;
     width: 50px;
     letter-spacing: 1px;
-    filter: invert(39%) sepia(8%) saturate(837%) hue-rotate(361deg)
-      brightness(93%) contrast(93%);
   }
   @media (max-width: 480px) {
     height: 70vh;
@@ -85,20 +69,20 @@ h2 {
   }
 }
 
-.icon:hover {
-  filter: invert(59%) sepia(8%) saturate(837%) hue-rotate(361deg)
-    brightness(93%) contrast(93%);
+.icon-skill:hover {
+  filter: invert(45%) sepia(77%) saturate(4167%) hue-rotate(327deg)
+    brightness(111%) contrast(82%);
 }
 
 .skills-row {
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 2.5rem 3rem 2.5rem 3rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: stretch;
   align-content: space-between;
-
+  width: 50%;
   @media (max-width: 1350px) {
     padding: 3rem 3rem 2rem 3rem;
     display: flex;
@@ -109,12 +93,13 @@ h2 {
     align-content: space-between;
   }
   @media (max-width: 480px) {
-    padding: 0rem 1rem 1rem 1rem;
+    padding: 0rem 1rem 2rem 1rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: stretch;
     align-content: space-between;
+    width: 92%;
   }
 }

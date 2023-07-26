@@ -2,8 +2,18 @@ import Pill from "../../Pill";
 import "./index.css";
 
 const PortfolioTemplate = (props: any) => {
-  const { title, status, involve, img, desc, type, live, viewText, pillArray } =
-    props;
+  const {
+    title,
+    status,
+    pillType,
+    involve,
+    img,
+    desc,
+    type,
+    live,
+    viewText,
+    pillArray,
+  } = props;
 
   //   console.log(pillArray);
   return (
@@ -17,7 +27,7 @@ const PortfolioTemplate = (props: any) => {
           <div className="side-title">{title}</div>
 
           <p>
-            Current status: <Pill text={status} status={"maintain"} />
+            Current status: <Pill text={status} status={pillType} />
           </p>
           <p>{involve}</p>
 

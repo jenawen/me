@@ -1,7 +1,18 @@
+import Pill from "../../Pill";
 import "./index.css";
 const MobilePortfolio = (props: any) => {
-  const { title, status, involve, img, date, desc, type, live, viewText } =
-    props;
+  const {
+    title,
+    status,
+    involve,
+    img,
+    date,
+    desc,
+    type,
+    live,
+    viewText,
+    pillArray,
+  } = props;
   return (
     <div className="template-parent-m">
       <div className="side-text-m">
@@ -24,6 +35,12 @@ const MobilePortfolio = (props: any) => {
       </div>
 
       <div className={`desc-${type}-m`}>{desc}</div>
+      <div className="pill-text">
+        {console.log(pillArray)}
+        {pillArray.map((e, i) => (
+          <Pill text={e.text} status={e.status} />
+        ))}
+      </div>
     </div>
   );
 };

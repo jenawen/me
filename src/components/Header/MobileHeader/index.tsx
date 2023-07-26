@@ -18,7 +18,7 @@ const MobileHeader = (props: any) => {
           onClick={() => {
             setCurrent(1);
           }}
-          className="icon"
+          className="m-icon"
         >
           <img src={homeicon} />
         </div>
