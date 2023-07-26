@@ -103,10 +103,11 @@ const ContactMe = (props: any) => {
           </form>
         </div>{" "}
       </div>
-      <div style={{ fontSize: "medium", paddingBottom: "15px" }}>
-        {" "}
-        Designed and developed with love by Jena Adkins. 2023.
-      </div>
+      {pageType === "desktop" ? (
+        <div style={{ fontSize: "medium", paddingBottom: "15px" }}>
+          Designed and developed with love by Jena Adkins. 2023.
+        </div>
+      ) : null}
     </div>
   );
 };

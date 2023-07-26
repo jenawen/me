@@ -1,5 +1,5 @@
 .cm-parent {
-  height: 115vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,9 @@
   font-size: large;
   /* padding: 0px 20px; */
   font-family: system-ui;
+  @media screen and (max-width: 480px) {
+    font-size: medium;
+  }
 }
 
 .cm-title {
@@ -46,9 +49,10 @@
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
-  align-content: stretch;
+  align-content: center;
   @media screen and (max-width: 480px) {
     width: 80vw;
+    margin: auto;
   }
 }
 

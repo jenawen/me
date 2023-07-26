@@ -84,7 +84,7 @@ const Portfolio = (props: any) => {
 
                 <p>
                   {" "}
-                  This was my first project as an intern. Our task was to create
+                  This was my first project as an intern. The task was to create
                   an interface to replace an Excel sheet that had the same
                   functions, but was becoming increasingly obsolete and
                   difficult to update.{" "}
@@ -111,9 +111,10 @@ const Portfolio = (props: any) => {
                   custom credit line for a specific credit card.
                 </p>
                 <p>
-                  This was one page of a larger internal project titled
+                  This was one section of a larger internal project titled
                   RISK-246. The purpose of the project was to create, edit, and
-                  manage credit card campaigns more efficiently.{" "}
+                  manage credit card campaigns more efficiently. I was in charge
+                  of the Underwriting portion of the project.{" "}
                 </p>
                 <p>
                   Since this was an internal application, contact me if you
@@ -140,8 +141,7 @@ const Portfolio = (props: any) => {
                 <p>
                   {" "}
                   Due to this being an ongoing project, I can only provide
-                  sparse details about it. However, it's a very high-profile
-                  project for the current company.{" "}
+                  sparse details about it.{" "}
                 </p>
                 <p>Contact me if you'd like to know more about the project.</p>
               </>
@@ -168,7 +168,7 @@ const Portfolio = (props: any) => {
                 title={"Glucose Journal"}
                 status={"In-progress"}
                 pillType={"ongoing"}
-                involve={"Front-end, Design, Unit Testing"}
+                involve={"Front-end, UI/UX Design, Unit Testing"}
                 desc={
                   <>
                     <p>
@@ -193,7 +193,7 @@ const Portfolio = (props: any) => {
                 title={"Lip Tint Picker"}
                 status={"In-progress"}
                 pillType={"ongoing"}
-                involve={"Front-end, Design, Unit Testing"}
+                involve={"Front-end, UI/UX Design"}
                 desc={
                   <>
                     <p>
@@ -244,7 +244,7 @@ const Portfolio = (props: any) => {
                 title={"Personal Portfolio V.1"}
                 status={"Deployed"}
                 pillType={"deployed"}
-                involve={"Front-end, Unit testing"}
+                involve={"Front-end, UI/UX Design"}
                 live={"https://jenaadkins.gitlab.io/portfolio/"}
                 viewText={"View Live"}
                 desc={
@@ -271,7 +271,7 @@ const Portfolio = (props: any) => {
                 title={"Personal Portfolio V.2"}
                 status={"Maintenance"}
                 pillType={"maintain"}
-                involve={"Front-end, Design, Unit testing"}
+                involve={"Front-end, UI/UX Design"}
                 live={
                   "https://www.figma.com/file/OwdsgAMnJqcj0HZVGCABxU/Portfolio-Pt2?type=design&node-id=0%3A1&mode=design&t=2mbYdgFCf1th3d7r-1"
                 }

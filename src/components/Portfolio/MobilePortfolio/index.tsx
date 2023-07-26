@@ -5,6 +5,7 @@ const MobilePortfolio = (props: any) => {
   const {
     title,
     status,
+    pillType,
     involve,
     img,
     date,
@@ -19,7 +20,9 @@ const MobilePortfolio = (props: any) => {
       <div className="side-text-m">
         <div className="side-title-m">{title}</div>
         <div>{date}</div>
-        <div>Current status: {status}</div>
+        <div>
+          Current status: <Pill text={status} status={pillType} />
+        </div>
         <div>{involve}</div>
         {live ? (
           <p
