@@ -30,6 +30,8 @@ const Portfolio = (props: any) => {
   ];
 
   const jrnl = [
+    { text: "Vite", status: "def" },
+
     { text: "React", status: "def" },
     { text: "TypeScript", status: "def" },
     { text: "CSS", status: "def" },
@@ -47,6 +49,8 @@ const Portfolio = (props: any) => {
   ];
 
   const ltp = [
+    { text: "Vite", status: "def" },
+
     { text: "React", status: "def" },
     { text: "TypeScript", status: "def" },
     { text: "HTML", status: "def" },
@@ -54,6 +58,8 @@ const Portfolio = (props: any) => {
   ];
 
   const sawarap = [
+    { text: "Vite", status: "def" },
+
     { text: "React", status: "def" },
     { text: "TypeScript", status: "def" },
     { text: "HTML", status: "def" },
@@ -64,6 +70,7 @@ const Portfolio = (props: any) => {
   ];
 
   const p2 = [
+    { text: "Vite", status: "def" },
     { text: "React", status: "def" },
     { text: "TypeScript", status: "def" },
     { text: "HTML", status: "def" },
@@ -181,6 +188,8 @@ const Portfolio = (props: any) => {
                 status={"In-progress"}
                 pillType={"ongoing"}
                 involve={"Front-end, UI/UX Design, Unit Testing"}
+                live={"https://github.com/jenawen/sugarlvls"}
+                viewText={"View GitHub Repository"}
                 desc={
                   <>
                     <p>
@@ -229,8 +238,8 @@ const Portfolio = (props: any) => {
               />
               <MobilePortfolio
                 title={"Sawara's Portfolio"}
-                status={"In-progress"}
-                pillType={"ongoing"}
+                status={"Deployed"}
+                pillType={"deployed"}
                 involve={"Front-end, Unit testing"}
                 desc={
                   <>
@@ -241,13 +250,14 @@ const Portfolio = (props: any) => {
                     <p>
                       I was commissioned by my friend to build a website for her
                       that she designed using Figma. Building this website
-                      exposed me more to Figma and how it works, which motivated
-                      me to try and use it myself.
+                      exposed me more to Figma and it's capabilities, which
+                      motivated me to try and use it myself for future
+                      applications.
                     </p>
                   </>
                 }
-                live={"https://github.com/jenawen/sawara"}
-                viewText={"View GitHub Repository"}
+                live={"https://sawara.vercel.app/"}
+                viewText={"View Live"}
                 type={"2"}
                 img={sawara}
                 pillArray={sawarap}
@@ -343,7 +353,7 @@ const Portfolio = (props: any) => {
 
                 <p>
                   {" "}
-                  This was my first project as an intern. Our task was to create
+                  This was my first project as an intern. The task was to create
                   an interface to replace an Excel sheet that had the same
                   functions, but was becoming increasingly obsolete and
                   difficult to update.{" "}
@@ -372,9 +382,10 @@ const Portfolio = (props: any) => {
                   custom credit line for a specific credit card.
                 </p>
                 <p>
-                  This was one page of a larger internal project titled
+                  This was one section of a larger internal project titled
                   RISK-246. The purpose of the project was to create, edit, and
-                  manage credit card campaigns more efficiently.{" "}
+                  manage credit card campaigns more efficiently. I was in charge
+                  of the Underwriting portion of the project.{" "}
                 </p>
                 <p>
                   Since this was an internal application, contact me if you
@@ -401,8 +412,7 @@ const Portfolio = (props: any) => {
                 <p>
                   {" "}
                   Due to this being an ongoing project, I can only provide
-                  sparse details about it. However, it's a very high-profile
-                  project for the current company.{" "}
+                  sparse details about it.{" "}
                 </p>
                 <p>Contact me if you'd like to know more about the project.</p>
               </>
@@ -430,6 +440,8 @@ const Portfolio = (props: any) => {
                 status={"In-progress"}
                 pillType={"ongoing"}
                 involve={"Front-end, Design, Unit Testing"}
+                live={"https://github.com/jenawen/sugarlvls"}
+                viewText={"View GitHub Repository"}
                 desc={
                   <>
                     <p>
@@ -441,8 +453,8 @@ const Portfolio = (props: any) => {
                       I created this project for my partner was diagnosed with
                       diabetes. For a month, we wanted to track his food intake
                       and glucose levels. I was using my notes app in my phone,
-                      but hated the touchscreen interface. So I decided to make
-                      my own!
+                      but hated the touchscreen interface, so I decided to make
+                      my own.
                     </p>
                   </>
                 }
@@ -478,8 +490,8 @@ const Portfolio = (props: any) => {
               />
               <PortfolioTemplate
                 title={"Sawara's Portfolio"}
-                status={"In-progress"}
-                pillType={"ongoing"}
+                status={"Deployed"}
+                pillType={"deployed"}
                 involve={"Front-end, Unit testing"}
                 desc={
                   <>
@@ -490,13 +502,14 @@ const Portfolio = (props: any) => {
                     <p>
                       I was commissioned by my friend to build a website for her
                       that she designed using Figma. Building this website
-                      exposed me more to Figma and how it works, which motivated
-                      me to try and use it myself.
+                      exposed me more to Figma and it's capabilities, which
+                      motivated me to try and use it myself for future
+                      applications.
                     </p>
                   </>
                 }
-                live={"https://github.com/jenawen/sawara"}
-                viewText={"View GitHub Repository"}
+                live={"https://sawara.vercel.app/"}
+                viewText={"View Live"}
                 type={"2"}
                 img={sawara}
                 pillArray={sawarap}
@@ -514,13 +527,13 @@ const Portfolio = (props: any) => {
                     <p>
                       I first started development with hand-drawn sketches of
                       what I wanted my site to look like. After a few
-                      renditions, I decided to build using handdrawn wireframes
+                      renditions, I decided to build using hand-drawn wireframes
                       as reference
                     </p>
                     <p>
-                      Overall, it functioned well but I was ultimately
-                      unsatisfied with it and decided to do a redesign, focusing
-                      more on responsiveness and efficiency.
+                      Overall, it functioned well, but I wanted to do more with
+                      it and decided to do a redesign, focusing more on
+                      responsiveness and user friendliness.
                     </p>
                   </>
                 }
@@ -545,14 +558,14 @@ const Portfolio = (props: any) => {
                     </p>
                     <p>
                       I created my first portfolio mostly on a whim without a
-                      real definite design. I had handdrawn sketches, but did
+                      real definite design. I had hand-drawn sketches, but did
                       not use any design software, and was developing and adding
                       things where I saw fit.
                     </p>
                     <p>
                       I decided to do a redesign to create a more responsive and
                       elegant feel that also showed off more front-end
-                      techniques I've acquired over the years.
+                      techniques I've acquired.
                     </p>
                   </>
                 }
