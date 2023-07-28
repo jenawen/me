@@ -42,7 +42,6 @@ const ContactMe = (props: any) => {
       })
 
       .catch((err) => {
-        // Submit the form manually
         e.target.submit();
         console.warn(err);
       });
