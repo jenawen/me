@@ -6,9 +6,11 @@ import github from "../../assets/github.svg";
 import gitlab from "../../assets/gitlab.svg";
 import discord from "../../assets/discord.svg";
 import { ToolTip } from "../ToolTip";
+import { useState } from "react";
 
 const ContactMe = (props: any) => {
   const { pageType } = props;
+  const [submitted, setSubmitted] = useState(false);
   const form_ep =
     "https://public.herotofu.com/v1/56b70060-178f-11ee-8025-97a9fb2f29da";
 
@@ -36,7 +38,9 @@ const ContactMe = (props: any) => {
         if (!response.ok) {
           throw new Error("Form response was not ok");
         }
+        setSubmitted(true);
       })
+
       .catch((err) => {
         // Submit the form manually
         e.target.submit();
@@ -99,6 +103,7 @@ const ContactMe = (props: any) => {
             <textarea placeholder="Your message" name="message" required />
             <div style={{ textAlign: "center" }}>
               <button type="submit">Send</button>{" "}
+              {submitted ? <p> Sent! </p> : null}
             </div>
           </form>
         </div>{" "}
