@@ -7,7 +7,7 @@ import uw1 from "../../../assets/portfoliopics/uw1.png";
 import c1b from "../../../assets/c1b.svg";
 import journal from "../../../assets/portfoliopics/journal.png";
 import liptint from "../../../assets/portfoliopics/liptint.png";
-import sawara from "../../../assets/portfoliopics/sawara.png";
+import sawara from "../../../assets/sawarap.png";
 import portfolio from "../../../assets/portfoliopics/portfolio.png";
 import portfolio2 from "../../../assets/portfoliopics/portfolio2.png";
 import MobilePortfolio from "../MobilePortfolio";
@@ -82,7 +82,7 @@ const Portfolio = (props: any) => {
 
   return (
     <div className="portfolio-container">
-      <div className="portfolio-title"> Portfolio</div>
+      <div className="portfolio-title">Portfolio</div>
 
       {pageType === "mobile" ? (
         <>

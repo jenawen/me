@@ -42,10 +42,12 @@
 }
 
 @font-face {
-  font-family: "notosans"; /*Can be any text*/
-  src: local("notosans"), url("./fonts/notosans.ttf") format("truetype");
+  font-family: "Corben"; /*Can be any text*/
+  src: local("Corben-Regular"),
+    url("./fonts/Corben-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "ebgaramond"; /*Can be any text*/
-  src: local("ebgaramond"), url("./fonts/ebgaramond.ttf") format("truetype");
+  font-family: "Manrope"; /*Can be any text*/
+  src: local("Manrope-Regular"),
+    url("./fonts/Manrope-Regular.ttf") format("truetype");
 }

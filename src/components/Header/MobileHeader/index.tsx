@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
-import homeicon from "../../../assets/homeicon.svg";
+import homeicon from "../../../assets/logonew.svg";
 import menu from "../../../assets/menu.svg";
 import { useState } from "react";
 import MobileHeaderMenu from "../MobileHeaderMenu";

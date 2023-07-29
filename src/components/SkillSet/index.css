@@ -11,18 +11,19 @@
   color: #504333;
 
   @media screen and (max-width: 480px) {
-    height: 100vh;
+    height: 85vh;
     text-align: center;
-    font-size: medium;
+    font-size: 15px;
   }
   @media screen and (max-width: 360px) {
     font-size: 15px;
+    padding-bottom: 80px;
   }
 }
 
 .skill-title {
   font-size: xxx-large;
-  font-family: ebgaramond;
+  font-family: Corben;
   letter-spacing: 4px;
   color: #804844;
   margin-top: 14vh;
@@ -89,6 +90,7 @@
   align-items: stretch;
   align-content: space-between;
   width: 50%;
+  font-family: Manrope;
   @media (max-width: 1350px) {
     padding: 3rem 3rem 2rem 3rem;
     display: flex;

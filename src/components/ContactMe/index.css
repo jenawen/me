@@ -11,9 +11,11 @@
   color: #504333;
 
   /* padding: 0px 20px; */
-  font-family: system-ui;
+  font-family: Manrope;
   @media screen and (max-width: 480px) {
-    font-size: medium;
+    height: 100vh;
+
+    font-size: 15px;
   }
   @media screen and (max-width: 360px) {
     font-size: 15px;
@@ -22,7 +24,7 @@
 
 .cm-title {
   font-size: xxx-large;
-  font-family: ebgaramond;
+  font-family: Corben;
   letter-spacing: 4px;
   color: #804844;
   margin-top: 14vh;
@@ -68,7 +70,7 @@ input {
   border: none;
   padding: 8px;
   font-size: large;
-  font-family: system-ui;
+  font-family: Manrope;
   margin-bottom: 25px;
   color: #504333;
   background-color: white;
@@ -82,7 +84,7 @@ textarea {
   border: none;
   padding: 8px;
   font-size: large;
-  font-family: system-ui;
+  font-family: Manrope;
   height: 10vh;
   color: #504333;
   background-color: white;

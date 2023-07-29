@@ -65,7 +65,7 @@
   color: #f7f5f0;
   letter-spacing: 0.4px;
   font-size: large;
-
+  font-family: Manrope;
   @media screen and (max-width: 1366px) {
     width: 520px;
     height: auto;
@@ -93,6 +93,7 @@
   /* margin-left: 25%; */
   letter-spacing: 0.4px;
   font-size: large;
+  font-family: Manrope;
 
   @media screen and (max-width: 1366px) {
     width: 520px;
@@ -111,13 +112,14 @@
 
 .side-text {
   padding: 10px;
-  font-size: large;
+  font-size: 18px;
   letter-spacing: 0.8px;
   width: 400px;
+  font-family: Manrope;
 }
 
 .side-title {
-  font-family: ebgaramond;
+  font-family: Corben;
   font-size: xx-large;
   letter-spacing: 1.8px;
 }

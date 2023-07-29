@@ -57,8 +57,8 @@ img {
   justify-content: space-evenly;
   align-items: flex-start;
   align-content: stretch;
-  font-family: system-ui;
-  letter-spacing: 1.8px;
+  font-family: Manrope;
+  letter-spacing: 1.5px;
   font-size: x-large;
   /* margin-left: 20px; */
   /* font-size: 20px; */
@@ -68,7 +68,7 @@ img {
     font-size: 22px;
   }
   @media screen and (max-width: 480px) {
-    font-size: large;
+    font-size: 18px;
   }
   @media screen and (max-width: 360px) {
     margin-top: -50px;
@@ -78,7 +78,7 @@ img {
 
 .landing-title {
   font-size: 62px;
-  font-family: ebgaramond;
+  font-family: Corben;
   letter-spacing: 4px;
   color: #804844;
   @media screen and (max-width: 1366px) {

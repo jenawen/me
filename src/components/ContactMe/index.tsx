@@ -101,7 +101,9 @@ const ContactMe = (props: any) => {
             <span>Message</span>
             <textarea placeholder="Your message" name="message" required />
             <div style={{ textAlign: "center" }}>
-              <button type="submit">Send</button>{" "}
+              <button style={{ fontFamily: "Corben" }} type="submit">
+                Send
+              </button>{" "}
               {submitted ? <p> Sent! </p> : null}
             </div>
           </form>

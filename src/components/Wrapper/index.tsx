@@ -1,6 +1,6 @@
 import "./index.css";
-import "../../fonts/ebgaramond.ttf";
-import "../../fonts/notosans.ttf";
+import "../../fonts/Corben-Regular.ttf";
+import "../../fonts/Manrope-Regular.ttf";
 import { useEffect, useState } from "react";
 import Header from "../Header/DesktopHeader/index";
 import Landing from "../Landing/DesktopLanding/index";

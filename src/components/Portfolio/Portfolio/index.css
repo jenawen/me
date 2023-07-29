@@ -5,19 +5,22 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
-  align-content: stretch;
-
+  align-content: center;
+  @media screen and (max-width: 480px) {
+    padding-bottom: 20px;
+  }
   @media screen and (max-width: 360px) {
-    padding-bottom: 70px;
+    padding-bottom: 100px;
   }
 }
 
 .portfolio-title {
   font-size: xxx-large;
-  font-family: ebgaramond;
+  font-family: Corben;
   letter-spacing: 4px;
   color: #804844;
   margin-top: 14vh;
+  text-align: center;
   @media screen and (max-width: 480px) {
     margin-top: 12vh;
     font-size: xx-large;
@@ -27,6 +30,7 @@
 .see-more {
   font-size: 20px;
   margin: auto;
+  font-family: Corben;
   @media screen and (max-width: 480px) {
     font-size: large;
   }

@@ -20,10 +20,11 @@
 }
 
 .menu-bottom {
-  font-size: x-small;
+  font-size: xx-small;
   text-align: center;
   padding-bottom: 10px;
   color: #dc7384;
+  font-family: Manrope;
 }
 
 .menu-card {
@@ -51,10 +52,13 @@
   align-content: stretch;
   margin-left: 18px;
   font-size: large;
-  font-family: ebgaramond;
+  font-family: Corben;
   letter-spacing: 3px;
   border-bottom: 1px solid #504333;
   color: #804844;
+  @media (max-width: 480px) {
+    font-size: 20px;
+  }
 }
 
 .sm-links {

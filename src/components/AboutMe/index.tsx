@@ -1,5 +1,5 @@
 import "./index.css";
-import "../../fonts/notosans.ttf";
+
 import resume from "../../../public/adkinsjena_resume_2023.pdf";
 const AboutMe = () => {
   return (

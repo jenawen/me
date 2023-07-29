@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
-import homeicon from "../../../assets/homeicon.svg";
+import homeicon from "../../../assets/logonew.svg";
 const Header = (props: any) => {
   const { setCurrent } = props;
   return (
