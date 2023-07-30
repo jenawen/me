@@ -103,8 +103,13 @@ const ContactMe = (props: any) => {
             <div style={{ textAlign: "center" }}>
               <button style={{ fontFamily: "Corben" }} type="submit">
                 Send
-              </button>{" "}
-              {submitted ? <p> Sent! </p> : null}
+              </button>
+              {submitted ? (
+                <>
+                  {" "}
+                  <p> Thank you! </p> <p> Your message has been sent :) </p>{" "}
+                </>
+              ) : null}
             </div>
           </form>
         </div>{" "}

@@ -18,34 +18,32 @@ const AboutMe = () => {
             2+ years of professional experience
           </span>{" "}
           as an undergrad in creating streamlined applications for the credit
-          card and financial industry using{" "}
-          <span style={{ color: "#DC7384" }}> React and TypeScript.</span>
+          card and financial industry.
         </p>
         <p>
           In the future, I'd love to pursue an opportunity in{" "}
           <span style={{ color: "#DC7384" }}> UI/UX design. </span>
-          However, my passion is ultimately with{" "}
-          <span style={{ color: "#DC7384" }}>front-end programming</span>,
+          However, my passion is ultimately with front-end programming,
           development, and all the problem solving it comes with.{" "}
         </p>
 
         <p>
           Being extremely detail oriented, I excel at implementing intended
-          designs into functional,{" "}
-          <span style={{ color: "#DC7384" }}>scalable components.</span> I love
+          designs into functional, scalable components using{" "}
+          <span style={{ color: "#DC7384" }}>TypeScript and React.</span> I love
           collaborating with others, and strive to make the
           <span style={{ color: "#DC7384" }}> design-to-development</span>{" "}
           process as productive and accurate as possible, no matter how many
-          iterations there are.
+          handoffs there are.
         </p>
 
         <p>
           In my free time, I love doing nail art and visiting dessert cafes
           across Las Vegas. I can never say no to{" "}
           <span style={{ color: "#DC7384" }}>coffee or boba</span> :) I also
-          love cars and mechanical drafting; I have a{" "}
-          <span style={{ color: "#DC7384" }}>project car</span> I've been
-          working on for 8 years now!
+          love cars, computer aided drafting, and anything automotive. If I'm
+          not coding, I'm probably working on my{" "}
+          <span style={{ color: "#DC7384" }}>project car!</span>
         </p>
 
         <p>
