@@ -55,7 +55,7 @@ export const DBDesc = () => {
 
       <p>
         {" "}
-        This is and ongoing and internal project. Contact me if you would like
+        This is an on going and internal project. Contact me if you would like
         to know more about it.
       </p>
     </>
@@ -67,14 +67,14 @@ export const JournalDesc = () => {
     <>
       <p>
         A simple blog-like application to track food and daily glucose levels.
-        The glucose level graph allows the user to visually see their progress
-        over time.
+        The glucose level graph allows the user to visually see their levels
+        over time over time.
       </p>
       <p>
-        I created this project for my partner who was diagnosed with diabetes.
-        For a month, I wanted to help track his food intake and blood sugar
-        levels. I decided to make this project, for keeping track of his
-        progress and as a reminder to be mindful about our health.
+        I created this project for my partner who was diagnosed with diabetes. I
+        wanted to help track his food intake and blood sugar levels. I decided
+        to make this project, for keeping track of his progress and as a
+        reminder to be mindful about our health.
       </p>
       <p>
         For this project, I wanted to try experimenting with backend tools. This
