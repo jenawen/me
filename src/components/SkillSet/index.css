@@ -23,8 +23,8 @@
 
 .skill-title {
   font-size: xxx-large;
-  font-family: Corben;
-  letter-spacing: 4px;
+  font-family: Lovelace;
+  letter-spacing: 1px;
   color: #804844;
   margin-top: 14vh;
   @media screen and (max-width: 480px) {
@@ -90,7 +90,7 @@
   align-items: stretch;
   align-content: space-between;
   width: 50%;
-  font-family: Manrope;
+  font-family: Quicksand;
   @media (max-width: 1350px) {
     padding: 3rem 3rem 2rem 3rem;
     display: flex;

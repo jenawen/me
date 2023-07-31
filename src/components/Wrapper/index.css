@@ -20,14 +20,13 @@
 }
 
 @font-face {
-  font-family: "Corben"; /*Can be any text*/
-  src: local("Corben-Regular"),
-    url("../../fonts/Corben-Regular.ttf") format("truetype");
+  font-family: "Lovelace"; /*Can be any text*/
+  src: local("Lovelace"), url("../../fonts/Lovelace.otf") format("opentype");
 }
 @font-face {
-  font-family: "Manrope"; /*Can be any text*/
-  src: local("Manrope-Regular"),
-    url("../../fonts/Manrope-Regular.ttf") format("truetype");
+  font-family: "Quicksand"; /*Can be any text*/
+  src: local("Quicksand-Medium"),
+    url("../../fonts/Quicksand-Medium.ttf") format("truetype");
 }
 
 .parent {

@@ -65,7 +65,7 @@
   color: #f7f5f0;
   letter-spacing: 0.4px;
   font-size: large;
-  font-family: Manrope;
+  font-family: Quicksand;
   @media screen and (max-width: 1366px) {
     width: 520px;
     height: auto;
@@ -93,7 +93,7 @@
   /* margin-left: 25%; */
   letter-spacing: 0.4px;
   font-size: large;
-  font-family: Manrope;
+  font-family: Quicksand;
 
   @media screen and (max-width: 1366px) {
     width: 520px;
@@ -113,15 +113,15 @@
 .side-text {
   padding: 10px;
   font-size: 18px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.5px;
   width: 400px;
-  font-family: Manrope;
+  font-family: Quicksand;
 }
 
 .side-title {
-  font-family: Corben;
+  font-family: Lovelace;
   font-size: xx-large;
-  letter-spacing: 1.8px;
+  letter-spacing: 1px;
 }
 
 .link-p {

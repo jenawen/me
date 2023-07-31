@@ -40,14 +40,3 @@
 .read-the-docs {
   color: #888;
 }
-
-@font-face {
-  font-family: "Corben"; /*Can be any text*/
-  src: local("Corben-Regular"),
-    url("./fonts/Corben-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Manrope"; /*Can be any text*/
-  src: local("Manrope-Regular"),
-    url("./fonts/Manrope-Regular.ttf") format("truetype");
-}

@@ -66,16 +66,19 @@ export const JournalDesc = () => {
   return (
     <>
       <p>
-        A simple journal-like application to track food and daily glucose
-        levels. The glucose level graph allows the user to visually see their
-        progress over time.
+        A simple blog-like application to track food and daily glucose levels.
+        The glucose level graph allows the user to visually see their progress
+        over time.
       </p>
       <p>
         I created this project for my partner who was diagnosed with diabetes.
         For a month, I wanted to help track his food intake and blood sugar
-        levels. I started out using my notes app in my phone, but hated the
-        cluttered touchscreen interface. I decided to make this project, to both
-        look back on and as a reminder to be mindful about our health.
+        levels. I decided to make this project, for keeping track of his
+        progress and as a reminder to be mindful about our health.
+      </p>
+      <p>
+        For this project, I wanted to try experimenting with backend tools. This
+        project uses an Express server and a PSQL database to store data.{" "}
       </p>
     </>
   );
@@ -96,7 +99,9 @@ export const LTPDesc = () => {
       <p>
         {" "}
         While developing this, I want to test my CSS and design abilities for an
-        experience that is both informative and charming.{" "}
+        experience that is both informative and charming. This project features
+        a mini backend using Node.js to store the questions, answers, and
+        results.{" "}
       </p>
     </>
   );
@@ -170,17 +175,17 @@ export const db = [
 ];
 
 export const jrnl = [
-  { text: "Vite", status: "def" },
   { text: "React", status: "def" },
   { text: "TypeScript", status: "def" },
-  { text: "CSS", status: "def" },
-  { text: "Chart.js", status: "def" },
+  { text: "Express", status: "def" },
+  { text: "PostgreSQL", status: "def" },
 ];
 
 export const ltp = [
   { text: "Vite", status: "def" },
   { text: "React", status: "def" },
   { text: "TypeScript", status: "def" },
+  { text: "Node.js", status: "def" },
   { text: "HTML", status: "def" },
   { text: "CSS", status: "def" },
 ];

@@ -16,7 +16,7 @@
 
 .portfolio-title {
   font-size: xxx-large;
-  font-family: Corben;
+  font-family: Lovelace;
   letter-spacing: 4px;
   color: #804844;
   margin-top: 14vh;
@@ -30,7 +30,7 @@
 .see-more {
   font-size: 20px;
   margin: auto;
-  font-family: Corben;
+  font-family: Lovelace;
   @media screen and (max-width: 480px) {
     font-size: large;
   }

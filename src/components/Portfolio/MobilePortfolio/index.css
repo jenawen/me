@@ -37,7 +37,7 @@
   background-color: #dc7384;
   border-radius: 10px;
   padding: 10px;
-  font-family: Manrope;
+  font-family: Quicksand;
   margin-left: 10%;
   color: #f7f5f0;
   letter-spacing: 0.4px;
@@ -56,7 +56,7 @@
   background-color: #f8bebb;
   border-radius: 10px;
   padding: 10px;
-  font-family: Manrope;
+  font-family: Quicksand;
 
   margin-left: 10%;
   color: #504333;
@@ -71,7 +71,7 @@
 
 .side-text-m {
   /* margin-left: 10px; */
-  font-family: Manrope;
+  font-family: Quicksand;
 
   font-size: medium;
   letter-spacing: 0.8px;
@@ -84,7 +84,7 @@
 }
 
 .side-title-m {
-  font-family: Corben;
+  font-family: Lovelace;
   font-size: x-large;
   letter-spacing: 1.8px;
   color: #804844;

@@ -16,7 +16,7 @@ const SkillSet = () => {
   return (
     <div className="skill-parent">
       <div className="skill-title">Skill Set</div>
-      <p style={{ fontFamily: "Manrope" }}>
+      <p style={{ fontFamily: "Quicksand" }}>
         Here are some tools I have the most experience and confidence using!
       </p>
 
@@ -135,7 +135,7 @@ const SkillSet = () => {
         </div>
       </div>
 
-      <p style={{ fontFamily: "Manrope" }}>
+      <p style={{ fontFamily: "Quicksand" }}>
         These are tools I’m currently learning and experimenting with.
       </p>
       <div className="skills-row">
