@@ -8,38 +8,28 @@ const AboutMe = () => {
 
       <div className="aboutme-text">
         <p>
-          As a front-end developer, I'm passionate about web design and
-          developing{" "}
-          <span style={{ color: "#DC7384" }}>
-            responsive and efficient user interfaces.{" "}
-          </span>{" "}
-          I currently have{" "}
-          <span style={{ color: "#DC7384" }}>
-            2+ years of professional experience
-          </span>{" "}
-          as an undergrad in creating streamlined applications for the credit
-          card and financial industry.
+          For the past two years, I’ve created streamlined user interfaces for
+          the credit card and financial industry. I'm passionate about web
+          design and development and excel at implementing intended designs into
+          functional, scalable components. I love collaborating with others, and
+          strive to make the design-to-development process as productive as
+          possible.
         </p>
 
         <p>
-          Being extremely detail oriented, I excel at implementing intended
-          designs into functional, scalable components using{" "}
-          <span style={{ color: "#DC7384" }}>TypeScript and React.</span> I love
-          collaborating with others, and strive to make the
-          <span style={{ color: "#DC7384" }}> design-to-development</span>{" "}
-          process as productive and accurate as possible, no matter how many
-          handoffs there are.
+          I mostly utilize React and TypeScript. I have sufficient experience
+          with JavaScript, HTML5, CSS3, as well as automated unit testing using
+          Jest. I tinker a lot with Figma and a little bit of Python using
+          Django, and Express and Node.js as well.
         </p>
 
         <p>
-          In my free time, I love visiting dessert cafes across Las Vegas. I can
-          never say no to{" "}
-          <span style={{ color: "#DC7384" }}>coffee or boba</span> :) I also
-          love cars, drafting, and anything automotive. If I'm not coding, I'm
-          probably working on my{" "}
-          <span style={{ color: "#DC7384" }}>project car!</span>
+          In my free time, I love doing nail art and getting coffee or boba with
+          friends. I also love cars and anything automotive; I have a project
+          car I've been working on for 8 years now!
         </p>
 
+        <p> Thanks for stopping by :)</p>
         <p>
           {" "}
           <a

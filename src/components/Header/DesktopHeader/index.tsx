@@ -11,41 +11,35 @@ const Header = (props: any) => {
         }}
         className="icon"
       >
-        <img src={homeicon} />
+        jena adkins
       </div>
 
       <div className="links">
         <div
-          className="link-1"
+          className="link-2"
           onClick={() => {
             setCurrent(2);
           }}
         >
-          Portfolio
+          about me
         </div>
+
         <div
-          className="link-2"
+          className="link-1"
           onClick={() => {
             setCurrent(3);
           }}
         >
-          About Me
+          projects
         </div>
+
         <div
-          className="link-3"
+          className="link-4"
           onClick={() => {
             setCurrent(4);
           }}
         >
-          Skill Set
-        </div>
-        <div
-          className="link-4"
-          onClick={() => {
-            setCurrent(5);
-          }}
-        >
-          Contact Me
+          contact
         </div>
       </div>
     </div>

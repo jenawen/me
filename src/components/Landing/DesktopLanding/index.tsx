@@ -1,24 +1,26 @@
 import "./index.css";
-import landing from "../../../assets/me.svg";
+import landing from "../../../assets/landing.svg";
+import loc from "../../../assets/loc.svg";
 
 const Landing = () => {
   return (
     <div className="landing-parent">
-      <div className="landing-photo">
-        <img src={landing} />
-      </div>
       <div className="landing-text">
-        <div className="landing-title">Hi! I'm Jena.</div>
-        <p>
-          I'm a <span style={{ color: "#DC7384" }}>front-end developer</span>{" "}
-          and undergraduate student majoring in Computer Science at UNLV.
-        </p>
-        <p>
+        <div className="landing-title">Hello! I'm Jena.</div>
+        <div id="landing-job">Front-end Developer</div>
+        <div id="landing-work">
           Currently working as a Web Development Intern at{" "}
           <a style={{ color: "#e8536c" }} href="https://www.creditonebank.com/">
             Credit One Bank.
           </a>
-        </p>
+        </div>
+        <div id="landing-loc">
+          {" "}
+          <img id="loc" src={loc} /> Las Vegas, Nevada
+        </div>
+      </div>
+      <div className="landing-photo">
+        <img src={landing} />
       </div>
     </div>
   );

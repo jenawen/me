@@ -5,7 +5,9 @@ import linkedin from "../../assets/linkedin.svg";
 import github from "../../assets/github.svg";
 import gitlab from "../../assets/gitlab.svg";
 import discord from "../../assets/discord.svg";
-import { ToolTip } from "../ToolTip";
+import mail from "../../assets/mail.svg";
+import phone from "../../assets/phone.svg";
+
 import { useState } from "react";
 
 const ContactMe = (props: any) => {
@@ -49,76 +51,74 @@ const ContactMe = (props: any) => {
 
   return (
     <div className="cm-parent">
-      <div>
-        {" "}
-        <div className="cm-title">Contact Me</div>
-        <div style={{ textAlign: "center", padding: "0px 25px" }}>
-          <p>
-            If you have any questions, or just want to chat, contact me here.
-          </p>
-          <p>I'll get back to you as soon as I can!</p>
+      <div className="top-half">
+        <div className="links-container">
+          <img
+            onClick={() =>
+              window.open("https://www.linkedin.com/in/jena-adkins/", "_blank")
+            }
+            id="contact-icon"
+            src={linkedin}
+          />
+          <img
+            onClick={() => window.open("https://github.com/jenawen", "_blank")}
+            id="contact-icon"
+            src={github}
+          />
+          <img
+            onClick={() =>
+              window.open("https://gitlab.com/jenaadkins", "_blank")
+            }
+            id="contact-icon"
+            src={gitlab}
+          />
         </div>
-        {pageType === "desktop" ? (
-          <div className="cm-links">
-            <img
-              onClick={() =>
-                window.open(
-                  "https://www.linkedin.com/in/jena-adkins/",
-                  "_blank"
-                )
-              }
-              className="cm-l"
-              src={linkedin}
-            />
-            <img
-              onClick={() =>
-                window.open("https://github.com/jenawen", "_blank")
-              }
-              className="cm-l"
-              src={github}
-            />
-            <img
-              onClick={() =>
-                window.open("https://gitlab.com/jenaadkins", "_blank")
-              }
-              className="cm-l"
-              src={gitlab}
-            />
-
-            <ToolTip displayText={"jenawen#0"} position={"top"}>
-              <img className="cm-l" src={discord} />
-            </ToolTip>
-          </div>
-        ) : null}
-        <div className="cm-form">
-          <form action={form_ep} onSubmit={handleSubmit} method="POST">
-            <span>Name</span>
-            <input type="text" placeholder="Your name" name="name" required />
-
-            <span>Email</span>
-            <input type="email" placeholder="Email" name="email" />
-
-            <span>Message</span>
-            <textarea placeholder="Your message" name="message" required />
-            <div style={{ textAlign: "center" }}>
-              <button style={{ fontFamily: "Lovelace" }} type="submit">
-                Send
-              </button>
-              {submitted ? (
-                <>
-                  {" "}
-                  <p> Thank you! </p> <p> Your message has been sent :) </p>{" "}
-                </>
-              ) : null}
-            </div>
-          </form>
-        </div>{" "}
       </div>
-      {pageType === "desktop" ? (
-        <div style={{ fontSize: "small", paddingBottom: "15px" }}>
-          Designed and developed with love by Jena Adkins. 2023.
+      <div className="bottom-half">
+        <div className="left-half">
+          <div className="contact-title">Contact Me</div>
+
+          <div className="contact-box">
+            <form action={form_ep} onSubmit={handleSubmit} method="POST">
+              <span>Name</span>
+              <input type="text" placeholder="Your name" name="name" required />
+
+              <span>Email</span>
+              <input type="email" placeholder="Email" name="email" />
+
+              <span>Message</span>
+              <textarea placeholder="Your message" name="message" required />
+              <div style={{ textAlign: "center" }}>
+                <button style={{ fontFamily: "Quicksand" }} type="submit">
+                  Send
+                </button>
+                {submitted ? (
+                  <>
+                    {" "}
+                    <p> Thank you! </p> <p> Your message has been sent :) </p>{" "}
+                  </>
+                ) : null}
+              </div>
+            </form>
+          </div>
         </div>
-      ) : null}
+
+        <div className="contact-text">
+          <div>If you have any questions, don't hesitate to reach out.</div>
+          <div>I'll get back to you as soon as I can!</div>
+          <div className="contact-line">
+            <img id="lil-icon" src={mail} /> jenawen00@gmail.com
+          </div>
+          <div className="contact-line">
+            {" "}
+            <img id="lil-icon" src={phone} /> 702-509-3094
+          </div>
+          <div className="contact-line">
+            {" "}
+            <img id="lil-icon" src={discord} /> jenawen#0
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

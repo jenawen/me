@@ -67,18 +67,14 @@ const Wrapper = () => {
         </div>
 
         <div id="slide-2">
-          <Portfolio pageType={pageType} />
-        </div>
-
-        <div id="slide-3">
           <AboutMe />
         </div>
 
-        <div id="slide-4">
-          <SkillSet />
+        <div id="slide-3">
+          <Portfolio pageType={pageType} />
         </div>
 
-        <div id="slide-5">
+        <div id="slide-4">
           <ContactMe pageType={pageType} />
         </div>
       </div>

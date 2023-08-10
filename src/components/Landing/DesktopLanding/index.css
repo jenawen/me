@@ -28,9 +28,9 @@
 .landing-photo {
   margin-top: -185px;
   /* margin-left: 55px; */
-  animation: grow 1s;
-  -moz-animation: grow 1s;
-  -webkit-animation: grow 1s;
+  animation: grow 1.6s;
+  -moz-animation: grow 1.6s;
+  -webkit-animation: grow 1.6s;
 
   @media screen and (max-width: 1366px) {
     margin-top: -95px;
@@ -44,6 +44,9 @@
 }
 
 img {
+  @media screen and (max-width: 1366px) {
+    max-width: 92%;
+  }
   @media screen and (max-width: 480px) {
     max-width: 360px;
   }
@@ -54,6 +57,7 @@ img {
 
 .landing-text {
   margin-top: -130px;
+  height: 50vh;
   padding: 25px;
   display: flex;
   flex-direction: column;
@@ -62,11 +66,7 @@ img {
   align-items: flex-start;
   align-content: stretch;
   font-family: Quicksand;
-  letter-spacing: 1.5px;
-  font-size: x-large;
-  /* margin-left: 20px; */
-  /* font-size: 20px; */
-  animation: fadein 2s;
+  animation: fadein 2.5s;
   -moz-animation: fadeint 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
 
@@ -85,12 +85,13 @@ img {
 }
 
 .landing-title {
-  font-size: 62px;
-  font-family: Lovelace;
+  font-size: 64px;
+  font-family: Quicksand;
   letter-spacing: 4px;
   color: #804844;
+
   @media screen and (max-width: 1366px) {
-    font-size: 56px;
+    font-size: 60px;
     letter-spacing: 4px;
   }
   @media screen and (max-width: 480px) {
@@ -104,6 +105,24 @@ img {
   }
 }
 
+#landing-job {
+  font-size: 38px;
+  letter-spacing: 2px;
+  color: #dc7384;
+}
+
+#landing-work {
+  font-size: 22px;
+}
+
+#landing-loc {
+  font-size: 20px;
+}
+
+#loc {
+  width: 20px;
+}
+
 a:hover {
   text-decoration: underline;
 }
@@ -111,25 +130,31 @@ a:hover {
 @keyframes grow {
   from {
     scale: 1.2;
+    opacity: 0;
   }
   to {
     scale: 1;
+    opacity: 1;
   }
 }
 @-moz-keyframes grow {
   from {
     scale: 1.2;
+    opacity: 0;
   }
   to {
     scale: 1;
+    opacity: 1;
   }
 }
 @-webkit-keyframes grow {
   from {
     scale: 1.2;
+    opacity: 0;
   }
   to {
     scale: 1;
+    opacity: 1;
   }
 }
 
