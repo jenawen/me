@@ -89,7 +89,8 @@ img {
   font-family: Quicksand;
   letter-spacing: 4px;
   color: #804844;
-
+  position: relative;
+  z-index: 2;
   @media screen and (max-width: 1366px) {
     font-size: 60px;
     letter-spacing: 4px;
@@ -103,6 +104,18 @@ img {
     margin-top: -50px;
     font-size: x-large;
   }
+}
+
+.landing-title::after {
+  content: "";
+  position: absolute;
+  background-color: #f8bebb;
+  opacity: 70%;
+  height: 20px;
+  left: 5px;
+  bottom: 25%;
+  width: 99%;
+  z-index: -1;
 }
 
 #landing-job {
