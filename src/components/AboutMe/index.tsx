@@ -17,10 +17,18 @@ const AboutMe = () => {
         </p>
 
         <p>
-          I mostly utilize React and TypeScript. I have sufficient experience
-          with JavaScript, HTML5, CSS3, as well as automated unit testing using
-          Jest. I tinker a lot with Figma and a little bit of Python using
-          Django, and Express and Node.js as well.
+          I mostly utilize <span style={{ color: "#DC7384" }}> React </span> and
+          <span style={{ color: "#DC7384" }}> TypeScript</span>. I have
+          sufficient experience with{" "}
+          <span style={{ color: "#DC7384" }}> JavaScript</span>,{" "}
+          <span style={{ color: "#DC7384" }}> HTML5</span>,{" "}
+          <span style={{ color: "#DC7384" }}> CSS3</span>, as well as automated
+          unit testing using <span style={{ color: "#DC7384" }}>Jest</span>. I
+          tinker a lot with <span style={{ color: "#DC7384" }}>Figma</span> and
+          a little bit of <span style={{ color: "#DC7384" }}>Python</span> using{" "}
+          <span style={{ color: "#DC7384" }}>Django</span>, and{" "}
+          <span style={{ color: "#DC7384" }}>Express</span> and{" "}
+          <span style={{ color: "#DC7384" }}>Node.js</span> as well!
         </p>
 
         <p>

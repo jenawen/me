@@ -126,15 +126,14 @@ export const SawaraDesc = () => {
 export const P1Desc = () => {
   return (
     <>
-      <p>My first attempt at a personal site/portfolio.</p>
+      <p>My personal website/portfolio.</p>
       <p>
-        I first started development with hand-drawn sketches of what I wanted my
-        site to look like. After a few renditions, I decided to build using
-        hand-drawn wireframes as reference.
+        I first started developing my portfolio based off hand-drawn sketches.
+        Soon after, I started learning Figma and redesigned the whole thing.
       </p>
       <p>
-        Overall, it functioned well but I was ultimately unsatisfied with it and
-        decided to do a redesign, focusing more on responsiveness and elegance.
+        I keep learning new techniques that always make me come back to redo
+        parts. For now, I’m happy with my design and its features!
       </p>
     </>
   );
