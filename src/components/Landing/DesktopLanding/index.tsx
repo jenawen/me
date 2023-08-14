@@ -10,7 +10,10 @@ const Landing = () => {
         <div id="landing-job">Front-end Developer</div>
         <div id="landing-work">
           Currently working as a Web Development Intern at{" "}
-          <a style={{ color: "#e8536c" }} href="https://www.creditonebank.com/">
+          <a
+            style={{ textDecoration: "underline", color: "#504333" }}
+            href="https://www.creditonebank.com/"
+          >
             Credit One Bank.
           </a>
         </div>

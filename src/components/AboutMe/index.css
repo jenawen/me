@@ -7,7 +7,7 @@
   align-items: flex-start;
   align-content: stretch;
   padding: 40px 90px;
-  width: 60%;
+  width: 62%;
   @media screen and (max-width: 1366px) {
     height: 80vh;
   }
@@ -20,7 +20,7 @@
   font-size: xxx-large;
   letter-spacing: 4px;
   font-family: Quicksand;
-  color: #804844;
+  /* color: #804844; */
 
   /* margin-top: 0.1vh; */
   @media screen and (max-width: 480px) {

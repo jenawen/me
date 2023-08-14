@@ -52,39 +52,41 @@ const ContactMe = (props: any) => {
   return (
     <div className="cm-parent">
       <div className="top-half">
-        <div className="links-container">
-          <img
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/jena-adkins/", "_blank")
-            }
-            id="contact-icon"
-            src={linkedin}
-          />
-          <img
-            onClick={() => window.open("https://github.com/jenawen", "_blank")}
-            id="contact-icon"
-            src={github}
-          />
-          <img
-            onClick={() =>
-              window.open("https://gitlab.com/jenaadkins", "_blank")
-            }
-            id="contact-icon"
-            src={gitlab}
-          />
-        </div>
-      </div>
-      <div className="bottom-half">
-        <div className="left-half">
+        <div className="contact-middle">
           <div className="contact-title">Contact Me</div>
-
+          <div className="links-container">
+            <img
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/jena-adkins/",
+                  "_blank"
+                )
+              }
+              id="contact-icon"
+              src={linkedin}
+            />
+            <img
+              onClick={() =>
+                window.open("https://github.com/jenawen", "_blank")
+              }
+              id="contact-icon"
+              src={github}
+            />
+            <img
+              onClick={() =>
+                window.open("https://gitlab.com/jenaadkins", "_blank")
+              }
+              id="contact-icon"
+              src={gitlab}
+            />
+          </div>
           <div className="contact-box">
             <form action={form_ep} onSubmit={handleSubmit} method="POST">
               <span>Name</span>
               <input type="text" placeholder="Your name" name="name" required />
 
               <span>Email</span>
-              <input type="email" placeholder="Email" name="email" />
+              <input type="email" placeholder="Your email" name="email" />
 
               <span>Message</span>
               <textarea placeholder="Your message" name="message" required />
@@ -101,24 +103,15 @@ const ContactMe = (props: any) => {
               </div>
             </form>
           </div>
-        </div>
 
-        <div className="contact-text">
-          <div>If you have any questions, don't hesitate to reach out.</div>
-          <div>I'll get back to you as soon as I can!</div>
-          <div className="contact-line">
-            <img id="lil-icon" src={mail} /> jenawen00@gmail.com
-          </div>
-          <div className="contact-line">
+          <div className="c-msg">
             {" "}
-            <img id="lil-icon" src={phone} /> 702-509-3094
-          </div>
-          <div className="contact-line">
-            {" "}
-            <img id="lil-icon" src={discord} /> jenawen#0
+            Designed and developed with love by Jena Adkins. 2023.
           </div>
         </div>
       </div>
+
+      <div className="bottom-half"></div>
     </div>
   );
 };
