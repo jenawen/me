@@ -63,11 +63,6 @@
   animation: slide 0.5s forwards;
   left: 0px;
 }
-@keyframes slide {
-  100% {
-    left: 10px;
-  }
-}
 
 .link:hover {
   opacity: 70%;

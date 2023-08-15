@@ -11,6 +11,7 @@
   @media screen and (max-width: 1366px) {
     height: 80vh;
     padding: 40px 90px;
+    width: 62%;
   }
   @media screen and (max-width: 360px) {
     height: 115vh;

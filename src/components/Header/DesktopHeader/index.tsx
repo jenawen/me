@@ -55,7 +55,7 @@ const Header = (props: any) => {
                 setCurrent(1);
               }}
             >
-              jena
+              home
             </div>
             <div
               className="link"
