@@ -6,7 +6,7 @@ import Header from "../Header/DesktopHeader/index";
 import Landing from "../Landing/DesktopLanding/index";
 import Portfolio from "../Portfolio/Portfolio";
 import AboutMe from "../AboutMe/index";
-import SkillSet from "../SkillSet";
+
 import ContactMe from "../ContactMe";
 import MobileHeader from "../Header/MobileHeader";
 
@@ -75,7 +75,7 @@ const Wrapper = () => {
         </div>
 
         <div id="slide-4">
-          <ContactMe pageType={pageType} />
+          <ContactMe />
         </div>
       </div>
     </>

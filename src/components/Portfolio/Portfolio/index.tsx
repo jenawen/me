@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useState } from "react";
-import PortfolioTemplate from "../PortfolioTemplate/index";
 import "./index.css";
 import uwmockup from "../../../assets/uwmockup.svg";
 import c1bicon from "../../../assets/c1bicon.svg";

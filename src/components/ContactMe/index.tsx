@@ -4,14 +4,10 @@ import "./index.css";
 import linkedin from "../../assets/linkedin.svg";
 import github from "../../assets/github.svg";
 import gitlab from "../../assets/gitlab.svg";
-import discord from "../../assets/discord.svg";
-import mail from "../../assets/mail.svg";
-import phone from "../../assets/phone.svg";
 
 import { useState } from "react";
 
-const ContactMe = (props: any) => {
-  const { pageType } = props;
+const ContactMe = () => {
   const [submitted, setSubmitted] = useState(false);
   const form_ep =
     "https://public.herotofu.com/v1/56b70060-178f-11ee-8025-97a9fb2f29da";
@@ -90,6 +86,7 @@ const ContactMe = (props: any) => {
 
               <span>Message</span>
               <textarea placeholder="Your message" name="message" required />
+
               <div style={{ textAlign: "center" }}>
                 <button style={{ fontFamily: "Quicksand" }} type="submit">
                   Send

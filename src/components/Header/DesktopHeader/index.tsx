@@ -1,6 +1,6 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
-import homeicon from "../../../assets/logonew.svg";
 import { useState, useEffect } from "react";
 const Header = (props: any) => {
   const { setCurrent } = props;
@@ -12,7 +12,7 @@ const Header = (props: any) => {
 
   console.log(bars);
 
-  const toggleMenu = (e) => {
+  const toggleMenu = () => {
     bars.forEach((bar) => bar.classList.toggle("x"));
   };
 

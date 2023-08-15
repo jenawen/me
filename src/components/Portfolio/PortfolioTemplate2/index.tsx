@@ -1,21 +1,10 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
-
-import uwmockup from "../../../assets/uwmockup.svg";
 import Pill from "../../Pill";
 
 const PortfolioTemplate2 = (props: any) => {
-  const {
-    title,
-    date,
-    image,
-    imgSize,
-    description,
-    pills,
-    viewText,
-    url,
-    type,
-    icon,
-  } = props;
+  const { title, date, image, description, pills, viewText, url, type, icon } =
+    props;
 
   return (
     <div className="outer-container">

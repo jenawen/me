@@ -209,6 +209,7 @@ export const p1 = [
   { text: "CSS", status: "def" },
   { text: "HeroTofu", status: "def" },
   { text: "GitLab Pages", status: "def" },
+  { text: "GitHub Pages", status: "def" },
 ];
 
 export const p2 = [

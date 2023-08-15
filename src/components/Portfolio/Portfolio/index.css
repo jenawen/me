@@ -4,7 +4,7 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
-
+  padding: 50px 0px;
   align-items: center;
   align-content: center;
   /* padding: 20px 0px; */
@@ -21,7 +21,7 @@
   font-family: Quicksand;
   letter-spacing: 4px;
   /* color: #804844; */
-  margin-top: 14vh;
+  /* margin-top: 14vh; */
   text-align: center;
   @media screen and (max-width: 480px) {
     margin-top: 12vh;
