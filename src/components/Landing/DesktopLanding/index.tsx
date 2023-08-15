@@ -18,11 +18,12 @@ const Landing = () => {
           </a>
         </div>
         <div id="landing-loc">
-          {" "}
           <img id="loc" src={loc} /> Las Vegas, Nevada
         </div>
       </div>
       <div className="landing-photo">
+        <div className="c-1"></div>
+        <div className="c-2"></div>
         <img src={landing} />
       </div>
     </div>

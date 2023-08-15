@@ -1,5 +1,5 @@
 import "./index.css";
-import "../../fonts/Lovelace.otf";
+// import "../../fonts/Lovelace.otf";
 import "../../fonts/Quicksand-Medium.ttf";
 import { useEffect, useState } from "react";
 import Header from "../Header/DesktopHeader/index";
