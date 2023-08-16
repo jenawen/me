@@ -76,7 +76,7 @@
 }
 .contact-box {
   border: 1px solid black;
-  width: 40%;
+  width: 35%;
   height: auto;
   padding: 40px 30px;
   background-color: #f7f1f0;
@@ -128,7 +128,7 @@ form {
 }
 
 input {
-  padding: 5px;
+  padding: 8px;
   font-family: Quicksand;
   margin: 5px 0px;
   font-size: medium;
@@ -139,7 +139,7 @@ input::placeholder {
 }
 
 textarea {
-  padding: 5px;
+  padding: 8px;
   font-family: Quicksand;
   height: 25vh;
   margin: 5px 0px;
