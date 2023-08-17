@@ -111,14 +111,14 @@ export const SawaraDesc = () => {
     <>
       <p>A portfolio site for a UX Designer to showcase her projects.</p>
       <p>
-        I was commissioned by my friend to build a website for her that she
-        designed using Figma.
+        I was commissioned by my friend to build a portfolio website for her
+        that she designed using Figma.
       </p>
       <p>
         Being an experienced designer, my friend was able to guide me through
         Figma and it's capabilities. Building this website exposed me more to
-        tools designers use, which motivated me to try and use Figma for future
-        applications.{" "}
+        tools that UX designers use, which motivated me to try and use Figma for
+        my own future applications.{" "}
       </p>
     </>
   );

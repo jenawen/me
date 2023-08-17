@@ -54,7 +54,7 @@ const Wrapper = () => {
           {pageType === "mobile" ? (
             <div className="header-section d-none d-xl-block">
               {" "}
-              <MobileHeader setCurrent={setCurrent} />{" "}
+              <Header setCurrent={setCurrent} />{" "}
             </div>
           ) : (
             <div className="header-section d-none d-xl-block">

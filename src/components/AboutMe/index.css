@@ -14,7 +14,9 @@
     width: 62%;
   }
   @media screen and (max-width: 360px) {
-    height: 115vh;
+    height: 100vh;
+    padding: 40px 30px;
+    width: 80%;
   }
 }
 

@@ -12,7 +12,7 @@
   /* padding-top: 120px; */
   /* padding-top: 120px; */
   font-family: Quicksand;
-  padding-top: 50px;
+  padding-top: 60px;
   @media screen and (max-width: 1366px) {
     padding-top: 200px;
   }
@@ -22,6 +22,8 @@
     font-size: 15px;
   }
   @media screen and (max-width: 360px) {
+    padding-top: 0px;
+
     font-size: 15px;
   }
 }
@@ -82,6 +84,9 @@
   background-color: #f7f1f0;
   border-radius: 16px;
   box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+  @media (max-width: 360px) {
+    width: 70%;
+  }
 }
 
 .contact-text {
@@ -116,6 +121,10 @@
   letter-spacing: 1px;
   position: relative;
   z-index: 1;
+  @media (max-width: 360px) {
+    text-align: center;
+    font-size: 10px;
+  }
 }
 
 form {
@@ -161,6 +170,9 @@ textarea::placeholder {
   align-content: stretch;
   width: 28%;
   padding-bottom: 30px;
+  @media (max-width: 360px) {
+    width: 60%;
+  }
 }
 
 #contact-icon {
