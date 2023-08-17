@@ -1,51 +1,66 @@
-import Pill from "../../Pill";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const MobilePortfolio = (props: any) => {
-  const {
-    title,
-    status,
-    pillType,
-    involve,
-    img,
-    date,
-    desc,
-    type,
-    live,
-    viewText,
-    pillArray,
-  } = props;
+import Pill from "../../Pill";
+
+const PortfolioTemplate2 = (props: any) => {
+  const { title, date, image, description, pills, viewText, url, type, icon } =
+    props;
+
   return (
-    <div className="template-parent-m">
-      <div className="side-text-m">
-        <div className="side-title-m">{title}</div>
-        <div>{date}</div>
-        <div>
-          Current status: <Pill text={status} status={pillType} />
+    <div className={`outer-container-m-${type}`}>
+      {type === "mockup" ? (
+        <div className="p-photo-m">
+          <img src={image} id="proj-p-m" />
         </div>
-        <div>{involve}</div>
-        {live ? (
-          <p
-            className="m-link"
-            onClick={() => window.open(` ${live}`, "_blank")}
-          >
-            {viewText}
-          </p>
-        ) : null}
+      ) : null}
+      <div className={`template-${type}-m`}>
+        <div className={`p-text-${type}-m`}>
+          {type === "mockup" ? (
+            <div className="p-title-m">
+              {title}
+              <div className="p-date-m">&nbsp;{date}</div>
+            </div>
+          ) : null}
+          {type === "icon" ? (
+            <div className="p-title-m">
+              <img src={icon} id="p-icon-m" />
+
+              {title}
+              <div className="p-date-m">&nbsp;{date}</div>
+            </div>
+          ) : null}
+
+          <div className="p-desc-m">{description}</div>
+          <div className="p-pills-m">
+            {pills.map((e: { text: string; status: string }) => (
+              <Pill text={e.text} status={e.status} />
+            ))}
+          </div>
+        </div>
       </div>
 
-      <div className="img-m">
-        <img style={{ maxWidth: "330px" }} src={`${img}`} />{" "}
-      </div>
-
-      <div className={`desc-${type}-m`}>{desc}</div>
-      <div className="pill-text">
-        {pillArray.map((e: { text: string; status: string }) => (
-          <Pill text={e.text} status={e.status} />
-        ))}
-      </div>
+      {viewText ? (
+        <>
+          <div className="view-text-m">
+            <div className="circles-group-m">
+              <div className="circle1"></div>
+              <div className="circle2"></div>
+              <div className="circle3"></div>
+            </div>
+            <div onClick={() => window.open(` ${url}`, "_blank")}>
+              {" "}
+              &nbsp;{viewText}&nbsp;{" "}
+            </div>
+            <div className="circles-group-m">
+              <div className="circle3"></div>
+              <div className="circle2"></div>
+              <div className="circle1"></div>
+            </div>
+          </div>
+        </>
+      ) : null}
     </div>
   );
 };
 
-export default MobilePortfolio;
+export default PortfolioTemplate2;

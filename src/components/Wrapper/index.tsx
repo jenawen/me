@@ -1,5 +1,5 @@
 import "./index.css";
-// import "../../fonts/Lovelace.otf";
+
 import "../../fonts/Quicksand-Medium.ttf";
 import { useEffect, useState } from "react";
 import Header from "../Header/DesktopHeader/index";
@@ -8,7 +8,6 @@ import Portfolio from "../Portfolio/Portfolio";
 import AboutMe from "../AboutMe/index";
 
 import ContactMe from "../ContactMe";
-import MobileHeader from "../Header/MobileHeader";
 
 const Wrapper = () => {
   const [pageType, setPageType] = useState("desktop");

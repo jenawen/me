@@ -7,8 +7,9 @@
   justify-content: flex-end;
   align-items: center;
   align-content: stretch;
-
-  /* position: absolute; */
+  @media screen and (max-width: 360px) {
+    height: 6vh;
+  }
 }
 
 .icon {
@@ -47,6 +48,13 @@
 
     letter-spacing: 1.8px;
     font-size: larger;
+  }
+  @media screen and (max-width: 360px) {
+    font-size: 14px;
+    padding-right: 5px;
+    margin: 0px 5px;
+    box-shadow: 0 0 0 2px #f7f1f0;
+    border-radius: 4px;
   }
 }
 .links-false {
@@ -92,6 +100,12 @@
   height: 20px;
   width: 28px;
   padding-right: 40px;
+  @media screen and (max-width: 360px) {
+    padding-right: 15px;
+    width: 30px;
+    background-color: #f7f1f0;
+    box-shadow: 0 0 0 1px #f7f1f0;
+  }
 }
 
 .bar-1-false {
@@ -99,18 +113,27 @@
   width: 100%;
   background-color: #504333;
   transition: all 150ms ease-in-out;
+  @media screen and (max-width: 360px) {
+    width: 90%;
+  }
 }
 .bar-2-false {
   height: 3px;
   width: 100%;
   background-color: #504333;
   transition: all 150ms ease-in-out;
+  @media screen and (max-width: 360px) {
+    width: 90%;
+  }
 }
 .bar-3-false {
   height: 3px;
   width: 100%;
   background-color: #504333;
   transition: all 150ms ease-in-out;
+  @media screen and (max-width: 360px) {
+    width: 90%;
+  }
 }
 
 .nav-toggle:hover {

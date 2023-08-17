@@ -23,9 +23,9 @@
   /* color: #804844; */
   /* margin-top: 14vh; */
   text-align: center;
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 360px) {
     margin-top: 12vh;
-    font-size: xx-large;
+    font-size: 25px;
   }
 }
 
