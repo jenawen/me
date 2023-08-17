@@ -45,7 +45,7 @@ const Header = (props: any) => {
   }, []);
 
   return (
-    <div className="header-parent">
+    <div className={`header-parent-${isOpen}`}>
       {isOpen ? (
         <>
           <div className={`links-${isOpen}`}>

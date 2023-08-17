@@ -112,6 +112,8 @@
 .p-text-m {
   padding: 10px 20px;
   margin-left: 35%;
+  color: #504333;
+
   @media screen and (max-width: 360px) {
     padding: 10px 20px;
     margin-left: 0%;
@@ -120,6 +122,8 @@
 .p-text-mockup-m {
   padding: 10px 20px;
   margin-left: 35%;
+  color: #504333;
+
   @media screen and (max-width: 360px) {
     padding: 10px 20px;
     margin-left: 0%;
@@ -150,6 +154,7 @@
   align-content: stretch;
   padding-right: 5px;
   padding-top: 10px;
+  color: #504333;
 }
 
 .p-date-m {

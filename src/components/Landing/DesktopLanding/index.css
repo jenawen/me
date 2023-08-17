@@ -78,7 +78,7 @@
     margin-top: none;
   }
   @media screen and (max-width: 360px) {
-    margin-top: 0px;
+    margin-top: -30px;
     margin-right: 10px;
   }
 }
