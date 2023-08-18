@@ -8,10 +8,8 @@
   align-items: center;
   align-content: center;
   /* padding: 20px 0px; */
+
   @media screen and (max-width: 480px) {
-    padding-bottom: 20px;
-  }
-  @media screen and (max-width: 360px) {
     padding-bottom: 100px;
   }
 }
@@ -23,7 +21,7 @@
   color: #504333;
   /* margin-top: 14vh; */
   text-align: center;
-  @media screen and (max-width: 360px) {
+  @media screen and (max-width: 480px) {
     margin-top: 12vh;
     font-size: 25px;
   }
