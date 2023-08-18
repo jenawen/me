@@ -1,5 +1,5 @@
 import "./index.css";
-
+import pdf from "../../assets/pdf.svg";
 import resume from "../../../public/adkinsjena_resume_2023.pdf";
 const AboutMe = () => {
   return (
@@ -46,7 +46,7 @@ const AboutMe = () => {
             target="_blank"
             rel="noreferrer"
           >
-            Click here to download my resume!
+            <img src={pdf} id="pdf" /> Click here to download my resume!
           </a>
         </p>
       </div>

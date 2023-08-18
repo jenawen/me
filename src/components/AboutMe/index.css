@@ -45,3 +45,11 @@
     font-size: 15px;
   }
 }
+
+#pdf {
+  width: 18px;
+  padding-right: 1px;
+  margin-top: 2px;
+  filter: invert(76%) sepia(22%) saturate(4375%) hue-rotate(301deg)
+    brightness(89%) contrast(94%);
+}

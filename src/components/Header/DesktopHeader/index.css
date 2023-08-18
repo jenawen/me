@@ -10,7 +10,7 @@
   @media screen and (max-width: 480px) {
     height: 6vh;
     background-color: #f7f1f0;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
   }
 }
 .header-parent-false {
@@ -24,6 +24,7 @@
   align-content: stretch;
   @media screen and (max-width: 480px) {
     height: 6vh;
+    padding-bottom: 10px;
   }
 }
 
