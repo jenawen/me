@@ -1,6 +1,6 @@
 import "./index.css";
 import pdf from "../../assets/pdf.svg";
-import resume from "../../../public/adkinsjena_resume_2023.pdf";
+import resume from "../../../public/adkinsjena_resume.pdf";
 const AboutMe = () => {
   return (
     <div className="aboutme-parent">
