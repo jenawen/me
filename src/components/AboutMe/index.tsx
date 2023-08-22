@@ -1,6 +1,6 @@
 import "./index.css";
 import pdf from "../../assets/pdf.svg";
-import resume from "../../../public/adkinsjena_resume.pdf";
+import resume from "../../../public/adkins_resume_2023.pdf";
 const AboutMe = () => {
   return (
     <div className="aboutme-parent">
@@ -42,7 +42,7 @@ const AboutMe = () => {
           {" "}
           <a
             href={resume}
-            download="adkinsjena_resume_2023"
+            download="jenaadkins_resume"
             target="_blank"
             rel="noreferrer"
           >
