@@ -54,8 +54,8 @@ const PortfolioTemplate2 = (props: any) => {
 
           <div className="p-desc">{description}</div>
           <div className="p-pills">
-            {pills.map((e: { text: string; status: string }) => (
-              <Pill text={e.text} status={e.status} />
+            {pills.map((e: { text: string; status: string }, i: number) => (
+              <Pill text={e.text} status={e.status} key={i} />
             ))}
           </div>
         </div>

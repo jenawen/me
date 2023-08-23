@@ -2,6 +2,7 @@
   width: 100vw;
   height: 8vh;
   display: flex;
+
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-end;

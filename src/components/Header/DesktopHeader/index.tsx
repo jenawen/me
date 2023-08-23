@@ -10,8 +10,6 @@ const Header = (props: any) => {
   const navToggle = document.querySelector(".nav-toggle");
   const bars = document.querySelectorAll(".bar");
 
-  console.log(bars);
-
   const toggleMenu = () => {
     bars.forEach((bar) => bar.classList.toggle("x"));
   };
