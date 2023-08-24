@@ -14,8 +14,6 @@
 #root {
   max-width: 100%;
   margin: 0 auto;
-  /* padding: 2rem; */
-  /* text-align: center; */
   overflow: hidden;
 }
 
@@ -36,7 +34,6 @@
   left: 0;
   width: 100%;
   z-index: 2;
-  /* box-shadow: 0 2px 20px 0 rgb(0 0 0 / 15%); */
   background-color: none;
   animation: 200ms ease-in-out 0.2s normal none 1 running fadeInDown;
   padding-top: 0px;

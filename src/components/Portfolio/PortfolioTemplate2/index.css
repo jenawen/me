@@ -81,17 +81,7 @@
 }
 .p-text-icon {
   padding: 10px 30px;
-  /* margin-left: 35%; */
 }
-/* 
-.icon-title {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: stretch;
-} */
 
 .p-title {
   font-family: Quicksand;
@@ -133,8 +123,6 @@
 
 .view-text:hover {
   transform: scale(1.05);
-  /* text-decoration: underline;
-} */
 }
 
 @keyframes grow {

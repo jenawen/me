@@ -60,7 +60,6 @@
 
 .landing-photo {
   margin-top: -220px;
-  /* margin-left: 55px; */
   animation: grow 1.6s;
   -moz-animation: grow 1.6s;
   -webkit-animation: grow 1.6s;

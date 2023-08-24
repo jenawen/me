@@ -6,7 +6,6 @@
   align-items: center;
   align-content: stretch;
   padding: 30px 0px 30px;
-  /* margin-top: 10px; */
   z-index: 0;
   color: #504333;
 }
@@ -18,7 +17,6 @@
   align-items: center;
   align-content: stretch;
   padding: 120px 0px 30px;
-  /* margin-top: 10px; */
   z-index: 0;
   color: #504333;
 }
@@ -113,18 +111,8 @@
 }
 .p-text-icon-m {
   padding: 10px 20px;
-  /* margin-left: 35%; */
   color: #504333;
 }
-/* 
-.icon-title {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  align-content: stretch;
-} */
 
 .p-title-m {
   font-family: Quicksand;
@@ -175,10 +163,6 @@
 
 .view-text:hover {
   transform: scale(1.05);
-  /* text-decoration: underline;
-  color: #504333;
-
-} */
 }
 
 @keyframes grow {

@@ -9,8 +9,6 @@
   align-content: center;
   font-size: large;
   color: #504333;
-  /* padding-top: 120px; */
-  /* padding-top: 120px; */
   font-family: Quicksand;
   padding-top: 60px;
   @media screen and (max-width: 1366px) {
@@ -36,11 +34,6 @@
   align-content: stretch;
   position: relative;
   z-index: 1;
-  /* right: 14%; */
-
-  @media (max-width: 1366px) {
-    /* left: 12%; */
-  }
 }
 .bottom-half {
   height: 55vh;
