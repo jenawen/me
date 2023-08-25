@@ -45,7 +45,7 @@ const MobilePortfolio = (props: IMobilePortfolio) => {
           <div className="p-desc-m">{description}</div>
           <div className="p-pills-m">
             {pills.map((e: { text: string; status: string }) => (
-              <Pill text={e.text} status={e.status} />
+              <Pill text={e.text} status={e.status} link={null} />
             ))}
           </div>
         </div>

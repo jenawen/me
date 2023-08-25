@@ -36,7 +36,7 @@ const MobileHeaderMenu = (props: IMobileHeaderMenu) => {
                 Portfolio
               </div>
               <div
-                className="link-2"
+                className="link-1"
                 onClick={() => {
                   setCurrent(3);
                   setOpenMenu(false);
@@ -45,7 +45,7 @@ const MobileHeaderMenu = (props: IMobileHeaderMenu) => {
                 About Me
               </div>
               <div
-                className="link-3"
+                className="link-1"
                 onClick={() => {
                   setCurrent(4);
                   setOpenMenu(false);
@@ -54,7 +54,7 @@ const MobileHeaderMenu = (props: IMobileHeaderMenu) => {
                 Skill Set
               </div>
               <div
-                className="link-4"
+                className="link-1"
                 onClick={() => {
                   setCurrent(5);
                   setOpenMenu(false);

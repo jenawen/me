@@ -48,30 +48,6 @@
 }
 
 /* Absolute positioning */
-.Tooltip-Tip.top {
-  top: calc(-1.2 * var(--tooltip-margin));
-}
-/* CSS border triangles */
-.Tooltip-Tip.top::before {
-  top: 100%;
-  border-top-color: var(--tooltip-background-color);
-}
-
-/* Absolute positioning */
-.Tooltip-Tip.right {
-  left: calc(100% + var(--tooltip-margin));
-  top: 50%;
-  transform: translateX(0) translateY(-50%);
-}
-/* CSS border triangles */
-.Tooltip-Tip.right::before {
-  left: calc(-1 * var(--tooltip-arrow-size));
-  top: 50%;
-  transform: translateX(0) translateY(-50%);
-  border-right-color: var(--tooltip-background-color);
-}
-
-/* Absolute positioning */
 .Tooltip-Tip.bottom {
   bottom: calc(-1.4 * var(--tooltip-margin));
 }
@@ -79,22 +55,6 @@
 .Tooltip-Tip.bottom::before {
   bottom: 100%;
   border-bottom-color: var(--tooltip-background-color);
-}
-
-/* Absolute positioning */
-.Tooltip-Tip.left {
-  left: auto;
-  right: 50px;
-  top: 50%;
-  transform: translateX(0) translateY(-50%);
-}
-/* CSS border triangles */
-.Tooltip-Tip.left::before {
-  left: auto;
-  right: calc(-2 * var(--tooltip-arrow-size));
-  top: 50%;
-  transform: translateX(0) translateY(-50%);
-  border-left-color: var(--tooltip-background-color);
 }
 
 /* Absolute positioning */

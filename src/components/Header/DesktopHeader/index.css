@@ -29,12 +29,6 @@
   }
 }
 
-.icon {
-  font-family: Quicksand;
-  letter-spacing: 1.5px;
-  font-size: x-large;
-}
-
 .links-true {
   width: 100%;
   display: flex;
@@ -92,21 +86,6 @@
 }
 
 .link:hover {
-  opacity: 70%;
-  color: #e8536c;
-  text-decoration: underline;
-}
-.link-2:hover {
-  opacity: 70%;
-  color: #e8536c;
-  text-decoration: underline;
-}
-.link-3:hover {
-  opacity: 70%;
-  color: #e8536c;
-  text-decoration: underline;
-}
-.link-4:hover {
   opacity: 70%;
   color: #e8536c;
   text-decoration: underline;

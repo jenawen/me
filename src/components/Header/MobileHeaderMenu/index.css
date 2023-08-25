@@ -79,31 +79,6 @@
   opacity: 70%;
 }
 
-.link-2 {
-  padding: 0px 15px 15px 5px;
-}
-.link-2:hover {
-  text-decoration: underline;
-  color: #e8536c;
-  opacity: 70%;
-}
-.link-3 {
-  padding: 0px 15px 15px 5px;
-}
-.link-3:hover {
-  text-decoration: underline;
-  color: #e8536c;
-  opacity: 70%;
-}
-.link-4 {
-  padding: 0px 15px 15px 5px;
-}
-.link-4:hover {
-  text-decoration: underline;
-  color: #e8536c;
-  opacity: 70%;
-}
-
 .linky {
   filter: invert(22%) sepia(39%) saturate(380%) hue-rotate(353deg)
     brightness(96%) contrast(85%);
@@ -112,26 +87,4 @@
 .linky:hover {
   filter: invert(45%) sepia(77%) saturate(4167%) hue-rotate(327deg)
     brightness(111%) contrast(82%);
-}
-
-#slide {
-  position: absolute;
-  right: -100vw;
-
-  -webkit-animation: slide 0.2s forwards;
-  -webkit-animation-delay: 0.2s;
-  animation: slide 0.3s forwards;
-  animation-delay: 0s;
-}
-
-@-webkit-keyframes slide {
-  100% {
-    right: 0;
-  }
-}
-
-@keyframes slide {
-  100% {
-    right: 0;
-  }
 }
