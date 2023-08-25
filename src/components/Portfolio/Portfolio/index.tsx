@@ -26,7 +26,7 @@ import PortfolioTemplate2 from "../PortfolioTemplate2";
 
 const Portfolio = (props: any) => {
   const { pageType } = props;
-  const [seeMore, setSeeMore] = useState(false);
+  const [seeMore, setSeeMore] = useState<boolean>(false);
 
   return (
     <div className="portfolio-container">
@@ -40,8 +40,10 @@ const Portfolio = (props: any) => {
             image={uwsmol}
             description={UWDesc()}
             pills={regzUW}
-            // viewText={}
             type={"mockup"}
+            viewText={null}
+            url={null}
+            icon={null}
           />
           <MobilePortfolio
             title={"Sawara's Portfolio"}
@@ -52,6 +54,7 @@ const Portfolio = (props: any) => {
             viewText={"View Live"}
             url={"https://sawara.vercel.app/"}
             type={"mockup"}
+            icon={null}
           />
 
           {!seeMore ? (
@@ -70,11 +73,11 @@ const Portfolio = (props: any) => {
               <MobilePortfolio
                 title={"Regulation Z"}
                 date={"2021 - 2022"}
-                // image={sawaramu}
+                image={null}
                 description={RegZDesc()}
                 pills={regzUW}
-                // viewText={"View Live"}
-                // url={"https://sawara.vercel.app/"}
+                viewText={null}
+                url={null}
                 type={"icon"}
                 icon={c1bicon}
               />
@@ -87,20 +90,23 @@ const Portfolio = (props: any) => {
                 viewText={"View Live"}
                 url={"https://jenaadkins.gitlab.io/portfolio/"}
                 type={"mockup"}
+                icon={null}
               />
               <MobilePortfolio
                 title={"Digital Bank"}
                 date={"2023 "}
-                // image={pmockups}
+                image={null}
                 description={DBDesc()}
                 pills={db}
                 type={"icon"}
                 icon={c1bicon}
+                viewText={null}
+                url={null}
               />
               <MobilePortfolio
                 title={"Lip Tint Picker"}
                 date={"2023"}
-                // image={pmockups}
+                image={null}
                 description={LTPDesc()}
                 pills={ltp}
                 viewText={"View GitHub Repo"}
@@ -129,8 +135,10 @@ const Portfolio = (props: any) => {
             image={uwmockup}
             description={UWDesc()}
             pills={regzUW}
-            // viewText={}
+            viewText={null}
             type={"mockup"}
+            url={null}
+            icon={null}
           />
 
           <PortfolioTemplate2
@@ -142,6 +150,7 @@ const Portfolio = (props: any) => {
             viewText={"View Live"}
             url={"https://sawara.vercel.app/"}
             type={"mockup"}
+            icon={null}
           />
 
           {!seeMore ? (
@@ -160,11 +169,11 @@ const Portfolio = (props: any) => {
               <PortfolioTemplate2
                 title={"Regulation Z"}
                 date={"2021 - 2022"}
-                // image={sawaramu}
+                image={null}
                 description={RegZDesc()}
                 pills={regzUW}
-                // viewText={"View Live"}
-                // url={"https://sawara.vercel.app/"}
+                viewText={null}
+                url={null}
                 type={"icon"}
                 icon={c1bicon}
               />
@@ -178,22 +187,25 @@ const Portfolio = (props: any) => {
                 viewText={"View Live"}
                 url={"https://jenaadkins.gitlab.io/portfolio/"}
                 type={"mockup"}
+                icon={null}
               />
 
               <PortfolioTemplate2
                 title={"Digital Bank"}
                 date={"2023 (In-progress)"}
-                // image={pmockups}
+                image={null}
                 description={DBDesc()}
                 pills={db}
                 type={"icon"}
                 icon={c1bicon}
+                viewText={null}
+                url={null}
               />
 
               <PortfolioTemplate2
                 title={"Lip Tint Picker"}
                 date={"2023 (In-progress)"}
-                // image={pmockups}
+                image={null}
                 description={LTPDesc()}
                 pills={ltp}
                 viewText={"View GitHub Repo"}

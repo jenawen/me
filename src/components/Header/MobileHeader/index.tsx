@@ -5,9 +5,13 @@ import menu from "../../../assets/menu.svg";
 import { useState } from "react";
 import MobileHeaderMenu from "../MobileHeaderMenu";
 
-const MobileHeader = (props: any) => {
+interface IMobileHeader {
+  setCurrent: React.Dispatch<React.SetStateAction<number>>;
+}
+
+const MobileHeader = (props: IMobileHeader) => {
   const { setCurrent } = props;
-  const [openMenu, setOpenMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState<boolean>(false);
   return (
     <>
       {openMenu ? (

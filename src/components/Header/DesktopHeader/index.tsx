@@ -2,11 +2,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import "./index.css";
 import { useState, useEffect } from "react";
-const Header = (props: any) => {
+
+interface IHeader {
+  setCurrent: React.Dispatch<React.SetStateAction<number>>;
+}
+
+const Header = (props: IHeader) => {
   const { setCurrent } = props;
-
-  const [isOpen, setIsOpen] = useState(true);
-
+  const [isOpen, setIsOpen] = useState<boolean>(true);
   const navToggle = document.querySelector(".nav-toggle");
   const bars = document.querySelectorAll(".bar");
 

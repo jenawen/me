@@ -7,7 +7,12 @@ import gitlab from "../../../assets/gitlab.svg";
 import discord from "../../../assets/discord.svg";
 import { ToolTip } from "../../ToolTip";
 
-const MobileHeaderMenu = (props: any) => {
+interface IMobileHeaderMenu {
+  setOpenMenu: React.Dispatch<React.SetStateAction<boolean>>;
+  setCurrent: React.Dispatch<React.SetStateAction<number>>;
+}
+
+const MobileHeaderMenu = (props: IMobileHeaderMenu) => {
   const { setOpenMenu, setCurrent } = props;
   return (
     <div className="menu-parent">

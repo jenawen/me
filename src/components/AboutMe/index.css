@@ -25,8 +25,6 @@
   letter-spacing: 4px;
   font-family: Quicksand;
   color: #504333;
-
-  /* margin-top: 0.1vh; */
   @media screen and (max-width: 480px) {
     margin-top: 0.1vh;
     font-size: 25px;

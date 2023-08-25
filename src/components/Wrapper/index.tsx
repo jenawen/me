@@ -10,8 +10,8 @@ import AboutMe from "../AboutMe/index";
 import ContactMe from "../ContactMe";
 
 const Wrapper = () => {
-  const [pageType, setPageType] = useState("desktop");
-  const [current, setCurrent] = useState(1);
+  const [pageType, setPageType] = useState<string>("desktop");
+  const [current, setCurrent] = useState<number>(1);
   const width = window.innerWidth;
 
   useEffect(() => {

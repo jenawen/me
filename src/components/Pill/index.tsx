@@ -1,6 +1,11 @@
 import "./index.css";
 
-const Pill = (props: any) => {
+interface IPill {
+  text: string;
+  link: string | null;
+  status: string;
+}
+const Pill = (props: IPill) => {
   const { text, link, status } = props;
 
   if (link) {

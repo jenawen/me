@@ -2,7 +2,19 @@
 import "./index.css";
 import Pill from "../../Pill";
 
-const PortfolioTemplate2 = (props: any) => {
+interface IMobilePortfolio {
+  title: string;
+  date: string;
+  image: any | null;
+  description: any;
+  pills: any;
+  viewText: string | null;
+  url: any | null;
+  type: string;
+  icon: any;
+}
+
+const MobilePortfolio = (props: IMobilePortfolio) => {
   const { title, date, image, description, pills, viewText, url, type, icon } =
     props;
 
@@ -63,4 +75,4 @@ const PortfolioTemplate2 = (props: any) => {
   );
 };
 
-export default PortfolioTemplate2;
+export default MobilePortfolio;

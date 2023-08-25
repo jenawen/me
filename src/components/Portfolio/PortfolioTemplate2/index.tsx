@@ -2,7 +2,19 @@
 import "./index.css";
 import Pill from "../../Pill";
 
-const PortfolioTemplate2 = (props: any) => {
+interface IPortfolioTemplate2 {
+  title: string;
+  date: string;
+  image: any | null;
+  description: any;
+  pills: any;
+  viewText: string | null;
+  url: any | null;
+  type: string;
+  icon: any;
+}
+
+const PortfolioTemplate2 = (props: IPortfolioTemplate2) => {
   const { title, date, image, description, pills, viewText, url, type, icon } =
     props;
 
@@ -55,7 +67,7 @@ const PortfolioTemplate2 = (props: any) => {
           <div className="p-desc">{description}</div>
           <div className="p-pills">
             {pills.map((e: { text: string; status: string }, i: number) => (
-              <Pill text={e.text} status={e.status} key={i} />
+              <Pill text={e.text} status={e.status} key={i} link={null} />
             ))}
           </div>
         </div>

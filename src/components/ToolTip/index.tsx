@@ -2,10 +2,16 @@
 import { useState } from "react";
 import "./index.css";
 
-export const ToolTip = (props: any) => {
+interface IToolTip {
+  displayText: string;
+  position: string;
+  children: any;
+}
+
+export const ToolTip = (props: IToolTip) => {
   const { displayText, position = "top" } = props;
 
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState<boolean>(false);
 
   const showTip = () => {
     setActive(true);

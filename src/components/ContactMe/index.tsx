@@ -8,7 +8,7 @@ import gitlab from "../../assets/gitlab.svg";
 import { useState } from "react";
 
 const ContactMe = () => {
-  const [submitted, setSubmitted] = useState(false);
+  const [submitted, setSubmitted] = useState<boolean>(false);
   const form_ep =
     "https://public.herotofu.com/v1/56b70060-178f-11ee-8025-97a9fb2f29da";
 
