@@ -24,7 +24,7 @@
   font-size: xxx-large;
   letter-spacing: 4px;
   font-family: Quicksand;
-  color: #504333;
+  color: #5f401a;
   @media screen and (max-width: 480px) {
     margin-top: 0.1vh;
     font-size: 25px;
@@ -35,7 +35,7 @@
   font-size: 20px;
 
   font-family: Quicksand;
-  color: #504333;
+  color: #5f401a;
   @media screen and (max-width: 1366px) {
     font-size: large;
   }
@@ -48,6 +48,6 @@
   width: 18px;
   padding-right: 1px;
   margin-top: 2px;
-  filter: invert(76%) sepia(22%) saturate(4375%) hue-rotate(301deg)
-    brightness(89%) contrast(94%);
+  filter: invert(58%) sepia(45%) saturate(558%) hue-rotate(313deg)
+    brightness(87%) contrast(92%);
 }

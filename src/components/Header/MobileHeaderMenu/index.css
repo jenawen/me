@@ -52,7 +52,7 @@
   font-size: large;
   font-family: Quicksand;
   letter-spacing: 3px;
-  border-bottom: 1px solid #504333;
+  border-bottom: 1px solid #5f401a;
   color: #804844;
   @media (max-width: 480px) {
     font-size: 20px;
@@ -75,7 +75,7 @@
 }
 .link-1:hover {
   text-decoration: underline;
-  color: #e8536c;
+  color: #d67272;
   opacity: 70%;
 }
 

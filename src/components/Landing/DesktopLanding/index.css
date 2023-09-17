@@ -7,7 +7,7 @@
   align-items: center;
   align-content: stretch;
   padding: 0px 100px;
-  background-color: #f7f1f0;
+  background-color: #fbf8f4;
 
   @media screen and (max-width: 1366px) {
     padding: 0px 90px;
@@ -31,8 +31,9 @@
   position: relative;
   top: 70px;
   right: 100px;
+  background-color: #f3d5cc;
+
   border-radius: 50%;
-  background-color: #dc7384;
   @media screen and (max-width: 480px) {
     height: 15px;
     width: 15px;
@@ -49,7 +50,8 @@
 
   right: -40px;
   border-radius: 50%;
-  background-color: #f8bebb;
+  background-color: #d6b0a1;
+
   @media screen and (max-width: 480px) {
     height: 40px;
     width: 40px;
@@ -105,7 +107,7 @@ img {
   -moz-animation: fadein 2s; /* Firefox */
   -webkit-animation: fadein 2s; /* Safari and Chrome */
   line-height: none;
-  color: #504333;
+  color: #5f401a;
   @media screen and (max-width: 1366px) {
     margin-top: -80px;
     font-size: 22px;
@@ -122,7 +124,7 @@ img {
   font-size: 70px;
   font-family: Quicksand;
   letter-spacing: 4px;
-  color: #804844;
+  color: #5f401a;
   position: relative;
   z-index: 2;
   @media screen and (max-width: 1366px) {
@@ -140,7 +142,8 @@ img {
 .landing-title::after {
   content: "";
   position: absolute;
-  background-color: #f8bebb;
+  background-color: rgba(243, 213, 204, 0.5);
+
   opacity: 70%;
   height: 24px;
   left: 6px;
@@ -163,7 +166,7 @@ img {
 #landing-job {
   font-size: 40px;
   letter-spacing: 2px;
-  color: #dc7384;
+  color: #be9b6d;
   @media screen and (max-width: 1366px) {
     font-size: 38px;
   }

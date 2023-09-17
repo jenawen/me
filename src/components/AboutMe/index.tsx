@@ -17,24 +17,31 @@ const AboutMe = () => {
         </p>
 
         <p>
-          I mostly utilize <span style={{ color: "#DC7384" }}> React </span> and
-          <span style={{ color: "#DC7384" }}> TypeScript</span>. I have
-          sufficient experience with{" "}
-          <span style={{ color: "#DC7384" }}> JavaScript</span>,{" "}
-          <span style={{ color: "#DC7384" }}> HTML5</span>,{" "}
-          <span style={{ color: "#DC7384" }}> CSS3</span>, as well as automated
-          unit testing using <span style={{ color: "#DC7384" }}>Jest</span>. I
-          tinker a lot with <span style={{ color: "#DC7384" }}>Figma</span> and
-          a little bit of <span style={{ color: "#DC7384" }}>Python</span> using{" "}
-          <span style={{ color: "#DC7384" }}>Django</span>, and{" "}
-          <span style={{ color: "#DC7384" }}>Express</span> and{" "}
-          <span style={{ color: "#DC7384" }}>Node.js</span> as well!
+          Outside of web development, I have an interest in data analysis and
+          have experience creating data reports and dashboards. I enjoy taking
+          high-volume datasets and creating dynamic ways to visualize and
+          interact with them, just like with websites and applications.
         </p>
 
         <p>
-          In my free time, I love doing nail art and getting coffee or boba with
-          friends. I also love cars and anything automotive; I have a project
-          car I've been working on for 8 years now!
+          I mostly utilize <span style={{ color: "#D67272" }}> React </span> and
+          <span style={{ color: "#D67272" }}> TypeScript</span>. I have
+          sufficient experience with{" "}
+          <span style={{ color: "#D67272" }}> JavaScript</span>,{" "}
+          <span style={{ color: "#D67272" }}> HTML5</span>,{" "}
+          <span style={{ color: "#D67272" }}> CSS3</span>, as well as automated
+          unit testing using <span style={{ color: "#D67272" }}>Jest</span>. I
+          often use <span style={{ color: "#D67272" }}>Express</span> and
+          <span style={{ color: "#D67272" }}>Node.js</span> for any back-end
+          functionality. <span style={{ color: "#D67272" }}>Python</span> and{" "}
+          <span style={{ color: "#D67272" }}>Streamlit</span> are my go-to’s for
+          data visualization. I also love tinkering with{" "}
+          <span style={{ color: "#D67272" }}>Figma</span>.
+        </p>
+
+        <p>
+          In my free time, I love doing nail art and going to cute cafes. I can
+          never say no to coffee or boba.
         </p>
 
         <p> Thanks for stopping by :)</p>

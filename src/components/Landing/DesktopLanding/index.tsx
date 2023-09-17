@@ -11,7 +11,7 @@ const Landing = () => {
         <div id="landing-work">
           Currently working as a Web Development Intern at{" "}
           <a
-            style={{ textDecoration: "underline", color: "#504333" }}
+            style={{ textDecoration: "underline", color: "#5F401A" }}
             href="https://www.creditonebank.com/"
           >
             Credit One Bank.

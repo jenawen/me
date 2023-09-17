@@ -16,7 +16,7 @@
   font-size: xxx-large;
   font-family: Quicksand;
   letter-spacing: 4px;
-  color: #504333;
+  color: #5f401a;
   text-align: center;
   @media screen and (max-width: 480px) {
     margin-top: 12vh;
@@ -33,7 +33,7 @@
   }
 }
 .see-more:hover {
-  color: #e8536c;
+  color: #d67272;
   opacity: 70%;
   @media screen and (max-width: 480px) {
     font-size: large;

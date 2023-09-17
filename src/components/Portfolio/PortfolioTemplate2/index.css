@@ -9,10 +9,11 @@
 }
 
 .template-cont {
-  background-color: rgba(248, 190, 187, 0.7);
+  background-color: rgba(243, 213, 204, 0.7);
+
   padding: 50px 10px;
   max-width: 55vw;
-  border: 1px solid #f8bebb;
+  border: 1px solid #f3d5cc;
   border-radius: 50px;
   display: flex;
   flex-direction: row;
@@ -137,21 +138,21 @@
 .circle1 {
   width: 8px;
   height: 8px;
-  background-color: #e8536c;
+  background-color: #f3d5cc;
   border-radius: 50%;
   margin: 0px 2px;
 }
 .circle2 {
   width: 12px;
   height: 12px;
-  background-color: #fce3a4;
+  background-color: #be9b6d;
   border-radius: 50%;
   margin: 0px 5px;
 }
 .circle3 {
   width: 15px;
   height: 15px;
-  background-color: #dc7384;
+  background-color: #d6b0a1;
   border-radius: 50%;
   margin: 0px 2px;
 }

@@ -20,7 +20,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #f8bebb;
+  color: #f3d5cc;
 }
 
 body {
@@ -49,10 +49,10 @@ button {
   margin: auto;
   margin-top: 20px;
   box-shadow: 2px 2px 5px grey;
-  color: #504333;
+  color: #5f401a;
 }
 button:hover {
-  background-color: #f8bebb;
+  background-color: #f3d5cc;
   box-shadow: none;
 }
 button:focus,
@@ -62,12 +62,12 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #504333;
+    color: #5f401a;
 
-    background-color: #f7f1f0;
+    background-color: #fbf8f4;
   }
   a:hover {
-    color: #f8bebb;
+    color: #f3d5cc;
   }
   button {
     background-color: #f9f9f9;
@@ -75,6 +75,6 @@ button:focus-visible {
 }
 
 ::selection {
-  color: #504333;
-  background: #f8bebb;
+  color: #5f401a;
+  background: #f3d5cc;
 }

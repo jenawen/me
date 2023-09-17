@@ -1,7 +1,7 @@
 /* Custom properties */
 :root {
-  --tooltip-text-color: #504333;
-  --tooltip-background-color: #f8bebb;
+  --tooltip-text-color: #5f401a;
+  --tooltip-background-color: #f3d5cc;
   --tooltip-margin: 30px;
   --tooltip-arrow-size: 6px;
   font-family: system-ui;

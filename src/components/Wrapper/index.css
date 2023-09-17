@@ -2,8 +2,8 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: #504333;
-  background-color: #f7f1f0;
+  color: #5f401a;
+  background-color: #fbf8f4;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,7 +24,7 @@
 }
 
 .parent {
-  background-color: #f7f1f0;
+  background-color: #fbf8f4;
   width: 100vw;
 }
 
