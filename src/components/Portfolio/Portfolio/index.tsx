@@ -4,7 +4,7 @@ import "./index.css";
 import uwmockup from "../../../assets/uwmockup.svg";
 import c1bicon from "../../../assets/c1bicon.svg";
 import glucose from "../../../assets/glucose.svg";
-import sawaramu from "../../../assets/sawaramu.svg";
+import sawaramu from "../../../assets/sawara2.svg";
 import pmockups from "../../../assets/pmockups.svg";
 import pmockups1 from "../../../assets/psinglemu.svg";
 import uwsmol from "../../../assets/uwsmallmu.svg";
