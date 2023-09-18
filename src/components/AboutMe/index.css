@@ -1,5 +1,5 @@
 .aboutme-parent {
-  height: 60vh;
+  height: 75vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -9,7 +9,7 @@
   padding: 40px 120px;
   width: 60%;
   @media screen and (max-width: 1366px) {
-    height: 80vh;
+    height: 100vh;
     padding: 40px 90px;
     width: 62%;
   }
