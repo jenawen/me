@@ -106,6 +106,29 @@ export const LTPDesc = () => {
     </>
   );
 };
+export const GlucoseDesc = () => {
+  return (
+    <>
+      <p>
+        When my partner was suddenly diagnosed with diabetes, we had to make
+        immediate lifestyle changes. Along with eating healthier, we also had to
+        take readings for his blood sugar three times everyday until he saw his
+        doctor again.
+      </p>
+      <p>
+        I logged his glucose levels for a month using Excel and made a dashboard
+        to visually see his progress. Just taking the readings and waiting to
+        talk to his doctor wasn’t enough for me; I made the dashboard in hopes
+        of seeing his glucose levels trend downwards myself. I saw his glucose
+        levels fall to a sustainable number and level out at a normal rate.
+      </p>
+      <p>
+        I still maintain data for his readings to this day. I add new data when
+        I can.
+      </p>
+    </>
+  );
+};
 export const SawaraDesc = () => {
   return (
     <>
@@ -221,4 +244,10 @@ export const p2 = [
   { text: "HeroTofu", status: "def" },
   { text: "Figma", status: "def" },
   { text: "GitHub Pages", status: "def" },
+];
+export const pglucose = [
+  { text: "Streamlit", status: "def" },
+  { text: "Python", status: "def" },
+  { text: "Excel", status: "def" },
+  { text: "Firebase", status: "def" },
 ];

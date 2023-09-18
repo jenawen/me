@@ -3,7 +3,7 @@ import { useState } from "react";
 import "./index.css";
 import uwmockup from "../../../assets/uwmockup.svg";
 import c1bicon from "../../../assets/c1bicon.svg";
-import ltpicon from "../../../assets/ltpicon.svg";
+import glucose from "../../../assets/glucose.svg";
 import sawaramu from "../../../assets/sawaramu.svg";
 import pmockups from "../../../assets/pmockups.svg";
 import pmockups1 from "../../../assets/psinglemu.svg";
@@ -21,6 +21,8 @@ import {
   ltp,
   sawarap,
   p2,
+  GlucoseDesc,
+  pglucose,
 } from "./Descriptions";
 import PortfolioTemplate2 from "../PortfolioTemplate2";
 
@@ -104,15 +106,15 @@ const Portfolio = (props: any) => {
                 url={null}
               />
               <MobilePortfolio
-                title={"Lip Tint Picker"}
+                title={"Glucose Dashboard"}
                 date={"2023"}
                 image={null}
-                description={LTPDesc()}
-                pills={ltp}
+                description={GlucoseDesc()}
+                pills={pglucose}
                 viewText={"View GitHub Repo"}
-                url={"https://github.com/jenawen/liptint"}
+                url={"https://github.com/jenawen/glucose"}
                 type={"icon"}
-                icon={ltpicon}
+                icon={glucose}
               />
 
               <button
@@ -203,15 +205,15 @@ const Portfolio = (props: any) => {
               />
 
               <PortfolioTemplate2
-                title={"Lip Tint Picker"}
+                title={"Glucose Level Dashboard"}
                 date={"2023 (In-progress)"}
                 image={null}
-                description={LTPDesc()}
-                pills={ltp}
+                description={GlucoseDesc()}
+                pills={pglucose}
                 viewText={"View GitHub Repo"}
-                url={"https://github.com/jenawen/liptint"}
+                url={"https://github.com/jenawen/glucose"}
                 type={"icon"}
-                icon={ltpicon}
+                icon={glucose}
               />
 
               <button
