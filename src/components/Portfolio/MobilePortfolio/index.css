@@ -24,7 +24,7 @@
 .template-mockup-m {
   background-color: rgba(243, 213, 204, 0.7);
   padding: 100px 0px 30px;
-  max-width: 82vw;
+  max-width: 85vw;
   border: 1px solid #f3d5cc;
   border-radius: 50px;
   display: flex;
@@ -37,7 +37,7 @@
 .template-icon-m {
   background-color: rgba(243, 213, 204, 0.7);
   padding: 20px 0px;
-  max-width: 82vw;
+  max-width: 85vw;
   border: 1px solid #f3d5cc;
   border-radius: 50px;
   display: flex;

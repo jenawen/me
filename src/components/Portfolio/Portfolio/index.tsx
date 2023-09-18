@@ -11,14 +11,12 @@ import uwsmol from "../../../assets/uwsmallmu.svg";
 import MobilePortfolio from "../MobilePortfolio";
 import {
   DBDesc,
-  LTPDesc,
   P1Desc,
   RegZDesc,
   SawaraDesc,
   UWDesc,
   regzUW,
   db,
-  ltp,
   sawarap,
   p2,
   GlucoseDesc,
