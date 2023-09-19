@@ -61,7 +61,7 @@
 }
 
 .landing-photo {
-  margin-top: -220px;
+  margin-top: -300px;
   animation: grow 1.6s;
   -moz-animation: grow 1.6s;
   -webkit-animation: grow 1.6s;
@@ -95,7 +95,7 @@ img {
 .landing-text {
   margin-top: -130px;
   height: 40vh;
-  padding: 25px;
+  padding: 22px 40px 22px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -121,7 +121,7 @@ img {
 }
 
 .landing-title {
-  font-size: 70px;
+  font-size: 60px;
   font-family: Quicksand;
   letter-spacing: 4px;
   color: #5f401a;
@@ -145,7 +145,7 @@ img {
   background-color: rgba(243, 213, 204, 0.5);
 
   opacity: 70%;
-  height: 24px;
+  height: 22px;
   left: 6px;
   bottom: 25px;
   width: 99%;
@@ -164,7 +164,7 @@ img {
 }
 
 #landing-job {
-  font-size: 40px;
+  font-size: 32px;
   letter-spacing: 2px;
   color: #be9b6d;
   @media screen and (max-width: 1366px) {
@@ -176,8 +176,8 @@ img {
 }
 
 #landing-work {
-  font-size: 24px;
-  width: 70%;
+  font-size: 20px;
+  width: 100%;
   letter-spacing: 2px;
   padding: 12px 0px;
   @media screen and (max-width: 1366px) {
@@ -190,7 +190,7 @@ img {
 }
 
 #landing-loc {
-  font-size: 22px;
+  font-size: 18px;
   letter-spacing: 1px;
   padding: 15px 0px;
   @media screen and (max-width: 1366px) {
@@ -203,7 +203,7 @@ img {
 }
 
 #loc {
-  width: 20px;
+  width: 18px;
   @media screen and (max-width: 480px) {
     width: 15px;
   }
