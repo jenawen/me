@@ -7,9 +7,9 @@ const Landing = () => {
     <div className="landing-parent">
       <div className="landing-text">
         <div className="landing-title">Hello! I'm Jena.</div>
-        <div id="landing-job">Front-end Developer | Data Analyst</div>
+        <div id="landing-job">Web Developer | Data Analyst</div>
         <div id="landing-work">
-          transforming data into elegant, interactive UI
+          transforming data into dynamic, interactive UI
         </div>
         <div id="landing-loc">
           <img id="loc" src={loc} />{" "}
@@ -24,7 +24,7 @@ const Landing = () => {
       <div className="landing-photo">
         <div className="c-1"></div>
         <div className="c-2"></div>
-        <img src={landing} />
+        {/* <img src={landing} /> */}
       </div>
     </div>
   );

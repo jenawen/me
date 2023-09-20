@@ -26,7 +26,9 @@ const AboutMe = () => {
           I mostly utilize Python and Streamlit for making those interactive
           dashboards, and React and TypeScript for dynamic web pages. PostgreSQL
           is my go-to for database management. I use Figma for any complex
-          dashboard designs and features.
+          dashboard designs and features. Outside of development, I often deal
+          with financial metrics, statements, KPIs, and other data reports. I’ve
+          worked with Tableau, as well as SQL and SAS.
         </p>
 
         <p>

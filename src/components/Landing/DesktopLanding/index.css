@@ -3,10 +3,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   align-content: stretch;
-  padding: 0px 100px;
+  padding: 0px 200px;
   background-color: #fbf8f4;
 
   @media screen and (max-width: 1366px) {
@@ -29,8 +29,8 @@
   height: 35px;
   width: 35px;
   position: relative;
-  top: 70px;
-  right: 100px;
+  top: 60px;
+  right: 110px;
   background-color: #f3d5cc;
 
   border-radius: 50%;
@@ -46,9 +46,9 @@
   height: 80px;
   width: 80px;
   position: relative;
-  top: 80px;
+  top: 70px;
 
-  right: -40px;
+  right: -15px;
   border-radius: 50%;
   background-color: #d6b0a1;
 
@@ -61,10 +61,10 @@
 }
 
 .landing-photo {
-  margin-top: -300px;
-  animation: grow 1.6s;
+  margin-top: -600px;
+  /* animation: grow 1.6s;
   -moz-animation: grow 1.6s;
-  -webkit-animation: grow 1.6s;
+  -webkit-animation: grow 1.6s; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
