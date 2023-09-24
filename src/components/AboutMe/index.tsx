@@ -8,18 +8,19 @@ const AboutMe = () => {
 
       <div className="aboutme-text">
         <p>
-          I started my career as a front-end developer creating user interfaces
+          I started my career as a software developer creating user interfaces
           and websites. As an intern and undergrad, I quickly grew to love
           everything web development and creating modern, efficient web apps.
         </p>
 
         <p>
-          In my current role, I combine those front-end skills with data
-          analysis, creating reactive and dynamic dashboards that allow users to
-          interact with high volume datasets. I strive to craft a user
-          experience that’s more informative than the usual static visualization
-          tools. My goal is to make data feel tangible and concise to point out
-          trends, liabilities, and any other desired indicators.
+          In my current role, I combine my solid development background with
+          data science and analysis, creating complex algorithms and dynamic
+          dashboards that allow users to engage with high-volume datasets. I
+          craft user experiences that are more informative than the usual static
+          visualization tools. I make data interactive so it’s easier to point
+          out trends, liabilities, and any other desired indicators for our
+          portfolio management team.
         </p>
 
         <p>
