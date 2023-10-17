@@ -56,7 +56,7 @@
     height: 40px;
     width: 40px;
     top: 130px;
-    right: -160px;
+    right: -158px;
   }
 }
 
@@ -117,6 +117,7 @@ img {
   @media screen and (max-width: 480px) {
     margin-top: 50px;
     font-size: medium;
+    padding: 22px 30px 22px;
   }
 }
 
@@ -134,7 +135,7 @@ img {
 
   @media screen and (max-width: 480px) {
     margin-top: -50px;
-    font-size: 28px;
+    font-size: 27px;
     height: 58px;
   }
 }
@@ -157,9 +158,9 @@ img {
     width: 99%;
   }
   @media screen and (max-width: 480px) {
-    bottom: 30px;
+    bottom: 25px;
     position: relative;
-    height: 4px;
+    height: 3px;
   }
 }
 
