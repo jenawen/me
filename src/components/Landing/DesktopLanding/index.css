@@ -37,8 +37,8 @@
   @media screen and (max-width: 480px) {
     height: 15px;
     width: 15px;
-    top: 125px;
-    right: -105px;
+    top: 120px;
+    right: -95px;
   }
 }
 
@@ -53,10 +53,10 @@
   background-color: #d6b0a1;
 
   @media screen and (max-width: 480px) {
-    height: 40px;
-    width: 40px;
-    top: 130px;
-    right: -158px;
+    height: 35px;
+    width: 35px;
+    top: 128px;
+    right: -145px;
   }
 }
 
@@ -117,7 +117,7 @@ img {
   @media screen and (max-width: 480px) {
     margin-top: 50px;
     font-size: medium;
-    padding: 22px 30px 22px;
+    padding: 22px 25px 22px;
   }
 }
 
@@ -147,9 +147,9 @@ img {
 
   opacity: 70%;
   height: 22px;
-  left: 6px;
+  left: 5px;
   bottom: 25px;
-  width: 99%;
+  width: 98%;
   z-index: -1;
   @media screen and (max-width: 1366px) {
     height: 20px;
@@ -200,6 +200,7 @@ img {
   }
   @media screen and (max-width: 480px) {
     font-size: 12px;
+    width: 100%;
   }
 }
 
