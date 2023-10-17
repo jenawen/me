@@ -6,7 +6,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   align-content: stretch;
-  padding: 40px 120px;
+  padding: 40px 150px;
   width: 60%;
   @media screen and (max-width: 1366px) {
     height: 100vh;

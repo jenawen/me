@@ -32,7 +32,7 @@ const AboutMe = () => {
           <span style={{ color: "#D67272" }}> CSS3</span>, as well as automated
           unit testing using <span style={{ color: "#D67272" }}>Jest</span>. I
           often use <span style={{ color: "#D67272" }}>Express</span> and
-          <span style={{ color: "#D67272" }}>Node.js</span> for any back-end
+          <span style={{ color: "#D67272" }}> Node.js</span> for any back-end
           functionality. <span style={{ color: "#D67272" }}>Python</span> and{" "}
           <span style={{ color: "#D67272" }}>Streamlit</span> are my go-to’s for
           data visualization. I also love tinkering with{" "}

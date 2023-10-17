@@ -1,5 +1,5 @@
 import "./index.css";
-import landing from "../../../assets/landing.svg";
+// import landing from "../../../assets/landing.svg";
 import loc from "../../../assets/loc.svg";
 
 const Landing = () => {
@@ -24,7 +24,7 @@ const Landing = () => {
       <div className="landing-photo">
         <div className="c-1"></div>
         <div className="c-2"></div>
-        <img src={landing} />
+        {/* <img src={landing} /> */}
       </div>
     </div>
   );
