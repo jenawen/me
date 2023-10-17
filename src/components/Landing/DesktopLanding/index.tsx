@@ -7,18 +7,18 @@ const Landing = () => {
     <div className="landing-parent">
       <div className="landing-text">
         <div className="landing-title">Hello! I'm Jena.</div>
-        <div id="landing-job">Front-end Developer</div>
+        <div id="landing-job">Front-end Developer | Data Analyst</div>
         <div id="landing-work">
-          Currently working as a Web Development Intern at{" "}
+          transforming data into elegant, interactive UI
+        </div>
+        <div id="landing-loc">
+          <img id="loc" src={loc} />{" "}
           <a
             style={{ textDecoration: "underline", color: "#5F401A" }}
             href="https://www.creditonebank.com/"
           >
             Credit One Bank.
           </a>
-        </div>
-        <div id="landing-loc">
-          <img id="loc" src={loc} /> Las Vegas, Nevada
         </div>
       </div>
       <div className="landing-photo">
