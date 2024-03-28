@@ -6,4 +6,45 @@
 	align-items: center;
 	align-content: stretch; 
     width: 100vw;
+    margin: -100px 0px 0px;
 }
+
+.title{
+    font-family: Limelight;
+    font-size: 50px;
+    color:#FFF3CA;
+    padding:1px 0px;
+}
+.current{
+    font-size: 22px;
+    padding:0px 0px 5px;
+
+}
+.desc{
+    font-size: 20px;
+    width: 30%;
+    padding:0px 0px 10px;
+
+}
+.links{
+    width:20%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+    font-family: Limelight;
+    font-size: 22px;
+    color:#FFF3CA;
+    padding:0px 0px 5px;
+
+
+}
+
+@font-face {
+    font-family: "Limelight";   /*Can be any text*/
+    src: local("Limelight-Regular"),
+      url("../../fonts/Limelight-Regular.ttf") format("truetype");
+  }
+
