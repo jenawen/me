@@ -1,7 +1,12 @@
-
+import "./index.css"
 export const HomePage = () => {
 
     return(
-        <div> HELLOOOO WORLD</div>
+        <div className="home"> 
+        
+        <div> My name is Jena.</div>
+        
+        
+        </div>
     )
 }
