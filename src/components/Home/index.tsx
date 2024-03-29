@@ -4,6 +4,7 @@ import me from '../../assets/homesvg.svg'
 import loc from '../../assets/location.svg'
 import { useState } from "react"
 import { About } from "../About"
+import { Projects } from "../Projects"
 export const HomePage = () => {
     const [isHomePage, setIsHomePage] = useState(true)
     const [isAbout, setIsAbout] = useState(false)
@@ -24,11 +25,15 @@ export const HomePage = () => {
                         setIsHomePage(false)
                         setIsAbout(true)
                     }}>about</div>
-                    <div className="linky">projects</div>
+                    <div className="linky" onClick={()=>{
+                        setIsHomePage(false)
+                        setIsProject(true)
+                    }}>projects</div>
                     <div className="linky">contact</div>
                 </div>
             </div>
-        </>) : isAbout ? (<><About setIsAbout={setIsAbout} setIsHomePage={setIsHomePage}/></>) : (<></>)}
+        </>) : isAbout ? (<><About setIsAbout={setIsAbout} setIsHomePage={setIsHomePage}/></>) 
+             : isProject ? (<Projects setIsProject={setIsProject} setIsHomePage={setIsHomePage}/>) : (<></>)}
     </>
     )
 }
