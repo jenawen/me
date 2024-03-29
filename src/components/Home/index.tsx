@@ -20,15 +20,15 @@ export const HomePage = () => {
                 <div className="current"><img src={loc} className="locicon"/>Credit One Bank - Operations</div>
                 <div className="desc">database management, content management systems, and customer support services </div>
                 <div className="links">
-                    <div onClick={()=>{
+                    <div className="linky" onClick={()=>{
                         setIsHomePage(false)
                         setIsAbout(true)
                     }}>about</div>
-                    <div>projects</div>
-                    <div>contact</div>
+                    <div className="linky">projects</div>
+                    <div className="linky">contact</div>
                 </div>
             </div>
-        </>) : isAbout ? (<><About/></>) : (<></>)}
+        </>) : isAbout ? (<><About setIsAbout={setIsAbout} setIsHomePage={setIsHomePage}/></>) : (<></>)}
     </>
     )
 }
