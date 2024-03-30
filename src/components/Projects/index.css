@@ -21,6 +21,20 @@
     padding: 20px;
 }
 
+.back-arrow:hover{
+    filter: drop-shadow( 3px 3px 2px #fff3ca);
+}
+
+.proj-cont{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    padding: 10px 0px;
+}
+
 .project{
     width: 100vw;
     height: 90vh;
@@ -30,6 +44,7 @@
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+
     
 
 }
@@ -39,9 +54,9 @@
     color: #FFF3CA;
 }
 .project-text{
-    width: 75%;
-    font-size: 22px;
-margin-top: -200px;
+    width: 80%;
+    font-size: 20px;
+margin-top: -100px;
 
 }
 
@@ -52,4 +67,5 @@ margin-top: -200px;
 	justify-content: center;
 	align-items: stretch;
 	align-content: flex-start;
+    padding-left: 20px;
 }
